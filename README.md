@@ -7,23 +7,21 @@
 - クラウドのキャリアを積みリモートワークを実現し、仕事と家庭を両立する。
 
 ## 経歴
-- ソフトのオペレーションマニュアル(数百ページ)をチームで分担して作成し、判りやすい資料作成の方法を習得しました。
-- チームリーダーを６年間経験し、人との接し方、情報共有の仕方を習得しました。
-- これらの経験は、ドキュメント作成および、IT業務でのチームワークに活かせると考えています。
+- ソフトのオペレーションマニュアル(数百ページ)を作成し、判りやすい資料作成の方法を習得した。
+- チームリーダーを６年間経験し、人との接し方、情報共有の仕方を習得した。
+- これらの経験は、ドキュメント作成および、IT業務でのチームワークに活かせると考えている。
 
 ## 資格一覧
 - 基本情報技術者 / 情報セキュリティマネジメント
-- Microsoft Azure Fundamentals (AZ-900)
-- Microsoft Azure AI Fundamentals (AI-900)
-- Microsoft Azure Data Fundamentals (DP-900)
-- Microsoft Power Platform Fundamentals (PL-900)
-- （学習中）Microsoft Azure Administrator (AZ-104)
+- Azure Fundamentals (AZ-900)
+- Azure Data Fundamentals (DP-900)
+- Azure AI Fundamentals (AI-900)
+- Power Platform Fundamentals (PL-900)
+- （学習中）Azure Administrator (AZ-104)
 
 ##  学習ログ
 ### ID管理（Entra ID）
-- なんか文字
-![ID管理](images/dummy-01.png)
-➡ 詳細：`/portfolio/dummy-01.md`
+[![ID管理](images/dummy-01.png)](/portfolio/dummy-01.md)
 
 ### （予定）監視（Azure Monitor / Log Analytics）
 ### （予定）基盤（VM / Storage / Virtual Network）
