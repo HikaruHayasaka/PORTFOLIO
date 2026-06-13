@@ -1,0 +1,34 @@
+## 目指しているキャリア
+- クラウドの保守運用領域でキャリアを開始する。
+- ID管理、セキュリティ、ガバナンス領域へ拡大する。
+
+## 仕事に対する価値観
+- 常に新しいことを学び、自分や周囲の業務を改善する。
+- クラウドのキャリアを積みリモートワークを実現し、仕事と家庭を両立する。
+
+## 経歴
+- ソフトのオペレーションマニュアル(数百ページ)をチームで分担して作成し、判りやすい資料作成の方法を習得しました。
+- チームリーダーを６年間経験し、人との接し方、情報共有の仕方を習得しました。
+- これらの経験は、ドキュメント作成および、IT業務でのチームワークに活かせると考えています。
+
+## 資格一覧
+- 基本情報技術者 / 情報セキュリティマネジメント
+- Microsoft Azure Fundamentals (AZ-900)
+- Microsoft Azure AI Fundamentals (AI-900)
+- Microsoft Azure Data Fundamentals (DP-900)
+- Microsoft Power Platform Fundamentals (PL-900)
+- （学習中）Microsoft Azure Administrator (AZ-104)
+
+##  学習ログ
+
+### ID管理（Entra ID）
+- 
+![***](images/***.png)
+➡ 詳細：`/portfolio/vm-alert.md`
+
+
+### （予定）監視（Azure Monitor / Log Analytics）
+### （予定）基盤（VM / Storage / Virtual Network）
+### （予定）ガバナンス（Azure Policy）
+### （予定）セキュリティ（Defender for Cloud）
+### （予定）ツール（GitHub / VSCode / Markdown）
