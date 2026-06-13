@@ -1,8 +1,10 @@
-## 目指しているキャリア
+# クラウドエンジニアプロフィール（求職用）
+
+## 目指すキャリア
 - クラウドの保守運用領域でキャリアを開始する。
 - ID管理、セキュリティ、ガバナンス領域へ拡大する。
 
-## 仕事に対する価値観
+## やりたいこと
 - 常に新しいことを学び、自分や周囲の業務を改善する。
 - クラウドのキャリアを積みリモートワークを実現し、仕事と家庭を両立する。
 
@@ -11,13 +13,13 @@
 - チームリーダーを６年間経験し、人との接し方、情報共有の仕方を習得した。
 - これらの経験は、ドキュメント作成および、IT業務でのチームワークに活かせると考えている。
 
-## 資格一覧
+## 資格
 - 基本情報技術者 / 情報セキュリティマネジメント
-- Azure Fundamentals (AZ-900)
-- Azure Data Fundamentals (DP-900)
-- Azure AI Fundamentals (AI-900)
-- Power Platform Fundamentals (PL-900)
-- （学習中）Azure Administrator (AZ-104)
+- AZ-900 (Azure Fundamentals)
+- DP-900 (Azure Data Fundamentals)
+- AI-900 (Azure AI Fundamentals)
+- PL-900 (Power Platform Fundamentals)
+- （学習中）AZ-104 (Azure Administrator)
 
 ##  学習ログ
 ### ID管理（Entra ID）
