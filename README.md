@@ -20,12 +20,10 @@
 - （学習中）Microsoft Azure Administrator (AZ-104)
 
 ##  学習ログ
-
 ### ID管理（Entra ID）
-- 
-![***](images/***.png)
-➡ 詳細：`/portfolio/vm-alert.md`
-
+- なんか文字
+![ID管理](images/dummy-01.png)
+➡ 詳細：`/portfolio/dummy-01.md`
 
 ### （予定）監視（Azure Monitor / Log Analytics）
 ### （予定）基盤（VM / Storage / Virtual Network）
