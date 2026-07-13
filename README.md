@@ -32,3 +32,5 @@
 ### （予定）ガバナンス（Azure Policy）
 ### （予定）セキュリティ（Defender for Cloud）
 ### （予定）ツール（GitHub / VSCode / Markdown）
+
+
