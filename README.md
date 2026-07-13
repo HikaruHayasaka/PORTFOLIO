@@ -1,4 +1,4 @@
-# クラウドエンジニア求職用プロフィール
+# 技術PR
 
 ## 目指すキャリア
 - クラウドの保守運用領域でキャリアを開始する。
@@ -22,8 +22,10 @@
 - （学習中）AZ-104 (Azure Administrator)
 
 ##  学習ログ
-### ID管理（Entra ID）
-[![ID管理](images/dummy-01.png)](/portfolio/dummy-01.md)
+### Entra ID（ユーザー・グループ）
+<a href="/portfolio/entra-id.md">
+  <img src="images/user-list.png" width="300">
+</a>
 
 ### （予定）監視（Azure Monitor / Log Analytics）
 ### （予定）基盤（VM / Storage / Virtual Network）
