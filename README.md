@@ -54,6 +54,5 @@
 - 推奨事項の適用  
 - アラート確認  
 
-### ツール（GitHub / VSCode / Markdown）
-- このページは、GitHub、VSCode、Markdownを使用して作成しました。
+### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
