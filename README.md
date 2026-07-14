@@ -40,7 +40,7 @@
 
 - [SSPR（Self-Service Password Reset）](/portfolio/sspr.md)
 
-<img src="images/sspr.png" width="300">
+<img src="images/sspr.png" width="150">
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
