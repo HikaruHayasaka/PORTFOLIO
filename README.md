@@ -4,9 +4,11 @@
 - クラウドの保守運用領域でキャリアを開始する。
 - ID管理、セキュリティ、ガバナンス領域へ拡大する。
 
+<!-- 
 ## やりたいこと
 - 常に新しいことを学び、自分や周囲の業務を改善する。
 - クラウドのキャリアを積みリモートワークを実現し、仕事と家庭を両立する。
+-->
 
 ## 経歴
 - ソフトのオペレーションマニュアル(数百ページ)を作成し、判りやすい資料作成の方法を習得した。
@@ -24,8 +26,9 @@
 ##  学習ログ
 ### Entra ID（ID管理）
 - ユーザー管理、グループ管理、ロール管理
+
 <a href="/portfolio/entra-id.md">
-  <img src="images/user-list.png" width="300">
+  <img src="images/user-list.png" width="300" style="border:1px solid #ccc; border-radius:6px;">
 </a>
 
 - MFA / 条件付きアクセス  
@@ -54,5 +57,4 @@
 - 推奨事項の適用  
 - アラート確認  
 
-### このページは、GitHub、VSCode、Markdownを使用して作成しました。
-
+#### このページは、GitHub、VSCode、Markdownを使用して作成しました。
