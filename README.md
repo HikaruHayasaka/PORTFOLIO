@@ -29,6 +29,10 @@
 
 <img src="images/user-list.png" width="300">
 
+- [MFA（認証方法ポリシー）](portfolio/mfa-authentication-policy.md)
+
+<img src="images/auth-methods-policy.png" width="300">
+
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
 ---
