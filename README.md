@@ -27,6 +27,7 @@
 <a href="/portfolio/entra-id.md">
   <img src="images/user-list.png" width="300">
 </a>
+
 - ロール管理  
 - MFA / 条件付きアクセス  
 - SSPR  
