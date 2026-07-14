@@ -31,7 +31,7 @@ Entra ID 上で以下の 4 要素を一連の流れとして理解する。
 ---
 ### 3-2. グループ作成
 1. **Groups → New group** を選択  
-2. Group type：Security を選択  
+2. **Group type：Security** を選択  
 3. 名前を入力し作成する
 ---
 
