@@ -57,3 +57,17 @@
 - アラート確認  
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
+
+
+<div style="background-color:#f5f5f5; padding:3px; display:inline-block; border-radius:3px;">
+  <img src="images/user-list.png" width="300">
+</div>
+
+### Entra ID（ID管理）
+- [ユーザー管理、グループ管理、ロール管理](portfolio/entra-id.md)
+
+<a href="/portfolio/entra-id.md">
+  <div style="background-color:#f5f5f5; padding:6px; display:inline-block; border-radius:4px;">
+    <img src="images/user-list.png" width="300">
+  </div>
+</a>
