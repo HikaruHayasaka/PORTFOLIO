@@ -29,6 +29,8 @@
 
 <img src="images/user-list.png" width="300">
 
+#### このページは、GitHub、VSCode、Markdownを使用して作成しました。
+
 ## ---以下作成中---
 
 - MFA / 条件付きアクセス  
@@ -56,5 +58,3 @@
 - Secure Score の確認  
 - 推奨事項の適用  
 - アラート確認  
-
-#### このページは、GitHub、VSCode、Markdownを使用して作成しました。
