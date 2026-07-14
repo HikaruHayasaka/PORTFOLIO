@@ -8,9 +8,9 @@ ID管理の基礎として、Entra ID 上でユーザーとグループを作成
 - ユーザー  
   - Test.User-01
 - グループ  
-  - TestGroup-0l
+  - TestGroup-01
 - 紐づけ  
-  - Test.User-01 → TestGroup-0l
+  - Test.User-01 → TestGroup-01
 
 ## 3. 手順（How：GUI）
 ### 3-1. ユーザー作成
