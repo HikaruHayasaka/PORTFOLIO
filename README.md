@@ -26,9 +26,7 @@
 ##  学習ログ
 ### Entra ID（ID管理）
 - [ユーザー管理、グループ管理、ロール管理](portfolio/entra-id.md)
-<div style="padding:6px; display:inline-block;">
-  <img src="images/user-list.png" width="300">
-</div>
+<img src="images/user-list.png" width="300">
 
 - MFA / 条件付きアクセス  
 - SSPR  
@@ -57,7 +55,3 @@
 - アラート確認  
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
-
-<div style="padding:8px; display:inline-block;">
-  <img src="images/user-list.png" width="300">
-</div>
