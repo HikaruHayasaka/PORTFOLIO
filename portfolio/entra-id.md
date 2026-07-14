@@ -24,27 +24,24 @@ Entra ID 上で以下の 4 要素を一連の流れとして理解する。
 1. Microsoft Entra 管理センターへアクセス
 2. **ユーザー → 新しいユーザー**を選択 
 3. 必要項目を入力し作成
----
 
-<img src="../images/user-list.png" width="600">
+<img src="../images/user-list.png" width="300">
 
 ---
 ### 3-2. グループの作成
 1. **グループ → 新しいグループ** を選択  
 2. **グループの種類：セキュリティ** を選択  
 3. **グループ名**を入力し作成
----
 
-<img src="../images/group-list.png" width="600">
+<img src="../images/group-list.png" width="300">
 
 ---
 ### 3-3. ユーザーとグループの紐づけ
 1. **グループ → 全てのグループ → 対象のグループ** を選択  
 2. **メンバー → メンバーの追加** を選択  
 3. **作成したユーザー**を追加
----
 
-<img src="../images/group-members.png" width="600">
+<img src="../images/group-members.png" width="300">
 
 ---
 ### 3-4. ロール（権限）の付与
@@ -52,9 +49,8 @@ Entra ID 上で以下の 4 要素を一連の流れとして理解する。
 2. **割り当てられたロール** を選択  
 3. **割り当ての追加** を選択  
 4. 付与するロール（User Administrator）を選択し追加
----
 
-<img src="../images/assigned-roles.png" width="600">
+<img src="../images/assigned-roles.png" width="300">
 
 ---
 ## 4. 結果

@@ -26,6 +26,7 @@
 ##  学習ログ
 ### Entra ID（ID管理）
 - [ユーザー管理、グループ管理、ロール管理](portfolio/entra-id.md)
+
 <img src="images/user-list.png" width="300">
 
 - MFA / 条件付きアクセス  
