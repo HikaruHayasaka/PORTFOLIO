@@ -22,15 +22,38 @@
 - （学習中）AZ-104 (Azure Administrator)
 
 ##  学習ログ
-### Entra ID（ユーザー・グループ）
+### Entra ID（ID管理）
+- ユーザー管理、グループ管理  
 <a href="/portfolio/entra-id.md">
   <img src="images/user-list.png" width="300">
 </a>
+- ロール管理  
+- MFA / 条件付きアクセス  
+- SSPR  
+- ログ監査  
 
-### （予定）監視（Azure Monitor / Log Analytics）
-### （予定）基盤（VM / Storage / Virtual Network）
-### （予定）ガバナンス（Azure Policy）
-### （予定）セキュリティ（Defender for Cloud）
-### （予定）ツール（GitHub / VSCode / Markdown）
+### 監視（Azure Monitor / Log Analytics）
+- メトリック監視（VM / Storage / Network）  
+- アラートルール作成  
+- Log Analytics ワークスペース  
+- KQL クエリ（基本）  
 
+### 基盤（VM / Storage / Virtual Network）
+- VM 作成（Windows/Linux）  
+- NSG / パブリックIP  
+- Storage アカウント（Blob）  
+- VNet / サブネット構成  
+
+### ガバナンス（Azure Policy）
+- Policy 割り当て  
+- Compliance の確認  
+- Initiative 作成  
+
+### セキュリティ（Defender for Cloud）
+- Secure Score の確認  
+- 推奨事項の適用  
+- アラート確認  
+
+### ツール（GitHub / VSCode / Markdown）
+- このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
