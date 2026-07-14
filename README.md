@@ -33,16 +33,20 @@
 
 <img src="images/auth-methods-policy.png" width="300">
 
+<!--
 - [条件付きアクセス（MFA 要求） ライセンス無しのため保留](portfolio/entra-ca.md)
-
 <img src="images/ca-policy-list.png" width="300">
+-->
+
+- [SSPR（Self-Service Password Reset）](/portfolio/sspr.md)
+
+<img src="images/sspr.png" width="300">
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
 ---
 ### 以下作成中
 
-- SSPR  
 - ログ監査  
 
 ### 監視（Azure Monitor / Log Analytics）
