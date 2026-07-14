@@ -33,12 +33,15 @@
 
 <img src="images/auth-methods-policy.png" width="300">
 
+- [条件付きアクセス（MFA 要求） ライセンス無しのため保留](portfolio/entra-ca.md)
+
+<img src="images/ca-policy-list.png" width="300">
+
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
 ---
 ### 以下作成中
 
-- MFA / 条件付きアクセス  
 - SSPR  
 - ログ監査  
 
