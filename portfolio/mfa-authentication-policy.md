@@ -1,4 +1,4 @@
-# **Entra ID：MFA（認証方法ポリシーによる多要素認証の強制）**
+# **Entra ID：MFA（認証方法ポリシー)**
 
 ## 1. 目的  
 Entra ID の新しい UI では「セキュリティの既定値（Security defaults）」が廃止されている。  
@@ -49,11 +49,11 @@ Entra ID の新しい UI では「セキュリティの既定値（Security defa
 ---
 
 ## 4. 結果（Output）  
-- テナント側で Microsoft Authenticator が必須化されているため、  
-  Test.User-01 は次回ログイン時に MFA 登録を求められる  
-- 弱い認証方法（SMS / 電話）が無効化され、  
-  **Security defaults と同等のセキュリティレベル**が実現  
-- パスキー（FIDO2）によりパスワードレス運用にも対応
+- Microsoft Authenticator を必須に設定。
+  このテナントではパスワードだけではログインできません。
+  Test.User-01 は次回ログイン時に Microsoft Authenticator の登録を求められ、登録が完了するまでログインはできません。
+- 弱い認証方法（SMS / 電話）を無効化し、セキュリティを向上。
+- パスキー（FIDO2）によりパスワードレス運用にも対応。
 
 ---
 
