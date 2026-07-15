@@ -44,12 +44,14 @@
 
 <img src="images/sspr.png" width="150">
 
-#### このページは、GitHub、VSCode、Markdownを使用して作成しました。
-
----
-### 以下作成中
 - [監査ログ](portfolio/01-05-entra-audit-log.md)
 
+<img src="images/01-05-entra-audit-log-01-menu.png" width="300">
+
+#### このページは、GitHub、VSCode、Markdownを使用して作成しました。
+
+### 以下作成中
+---
 ### 監視（Azure Monitor）
 - [メトリック監視（VM / Storage / Network）](portfolio/02-01-monitor-metrics.md)
 - [アラートルール作成](portfolio/02-02-monitor-alert-rule.md)
