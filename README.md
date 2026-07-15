@@ -53,23 +53,23 @@
 ### 以下作成中
 ---
 ### 監視（Azure Monitor）
-- [メトリック監視（VM / Storage / Network）](portfolio/02-01-monitor-metrics.md)
-- [アラートルール作成](portfolio/02-02-monitor-alert-rule.md)
-- [Log Analytics ワークスペース](portfolio/02-03-monitor-log-analytics.md)
-- [KQL クエリ（基本）](portfolio/02-04-monitor-kql-basic.md)
+- [メトリック監視（VM / Storage / Network）] <!--(portfolio/02-01-monitor-metrics.md)-->
+- [アラートルール作成] <!--(portfolio/02-02-monitor-alert-rule.md)-->
+- [Log Analytics ワークスペース] <!--(portfolio/02-03-monitor-log-analytics.md)-->
+- [KQL クエリ（基本）] <!--(portfolio/02-04-monitor-kql-basic.md)-->
 
 ### 基盤（VM / Storage / Virtual Network）
-- [VM 作成（Windows/Linux）](portfolio/03-01-vm-create.md)
-- [NSG / パブリックIP](portfolio/03-02-nsg-public-ip.md)
-- [Storage アカウント（Blob）](portfolio/03-03-storage-blob.md)
-- [VNet / サブネット構成](portfolio/03-04-vnet-subnet.md)
+- [VM 作成（Windows/Linux）] <!--(portfolio/03-01-vm-create.md)-->
+- [NSG / パブリックIP] <!--(portfolio/03-02-nsg-public-ip.md)-->
+- [Storage アカウント（Blob）] <!--(portfolio/03-03-storage-blob.md)-->
+- [VNet / サブネット構成] <!--(portfolio/03-04-vnet-subnet.md)-->
 
 ### ガバナンス（Azure Policy）
-- [Policy 割り当て](portfolio/04-01-policy-assignment.md)
-- [Compliance の確認](portfolio/04-02-policy-compliance.md)
-- [Initiative 作成](portfolio/04-03-policy-initiative.md)
+- [Policy 割り当て] <!--(portfolio/04-01-policy-assignment.md)-->
+- [Compliance の確認] <!--(portfolio/04-02-policy-compliance.md)-->
+- [Initiative 作成] <!--(portfolio/04-03-policy-initiative.md)-->
 
 ### セキュリティ（Defender for Cloud）
-- [Secure Score の確認](portfolio/05-01-defender-secure-score.md)
-- [推奨事項の適用](portfolio/05-02-defender-recommendations.md)
-- [アラート確認](portfolio/05-03-defender-alerts.md)
+- [Secure Score の確認] <!--(portfolio/05-01-defender-secure-score.md)-->
+- [推奨事項の適用] <!--(portfolio/05-02-defender-recommendations.md)-->
+- [アラート確認] <!--(portfolio/05-03-defender-alerts.md)-->
