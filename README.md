@@ -34,6 +34,7 @@
 <img src="images/auth-methods-policy.png" width="300">
 
 - 条件付きアクセス（MFA 要求） ライセンス無しのため保留
+
 <!--
 - [条件付きアクセス（MFA 要求） ライセンス無しのため保留](portfolio/01-03-entra-ca.md)
 <img src="images/ca-policy-list.png" width="300">
