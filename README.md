@@ -48,13 +48,15 @@
 
 - [NSG / パブリックIP]有償のため保留 <!-- (portfolio/02-02-nsg-public-ip.md)-->
 
+- [Storage アカウント（Blob）] <!--(portfolio/02-03-storage-blob.md)-->
 
+<img src="images/02-03-storage-blob-02-storage-account-create.png" width="300">
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
 ### 以下作成中
 ---
-- [Storage アカウント（Blob）] <!--(portfolio/02-03-storage-blob.md)-->
+
 - [VNet / サブネット構成] <!--(portfolio/02-04-vnet-subnet.md)-->
 
 ### 監視（Azure Monitor）
