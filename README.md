@@ -33,9 +33,7 @@
 
 <img src="images/01-02-mfa-authentication-policy-01-auth-methods-policy.png" width="300">
 
-- [条件付きアクセス（MFA 要求）]ライセンスが必要なため保留 <!--(portfolio/01-03-entra-ca.md)
-<img src="images/ca-policy-list.png" width="300">
--->
+- [条件付きアクセス（MFA 要求）]ライセンスが必要なため保留<!--(portfolio/01-03-entra-ca.md)-->
 
 - [SSPR（Self-Service Password Reset）](portfolio/01-04-sspr.md)
 
@@ -47,8 +45,9 @@
 
 ### 基盤（VM / Storage / Virtual Network）
 - [VM 作成（Windows/Linux）]有償のため保留 <!--(portfolio/02-01-vm-create.md)-->
+
 - [NSG / パブリックIP]有償のため保留 <!-- (portfolio/02-02-nsg-public-ip.md)-->
-- [Storage アカウント（Blob）] <!--(portfolio/02-03-storage-blob.md)-->
+
 
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
