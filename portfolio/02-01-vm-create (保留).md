@@ -20,89 +20,81 @@ Azure Portal（日本語版）を使用して、仮想マシン（VM）を最新
 ## 3. 手順（How）
 
 ### 3.1 リソースグループ作成
-
-<img src="../images/02-01-azure-vm-01-rg-create.png" width="300">
-
 1. Azure Portal にサインイン  
 2. 左メニュー → 「リソース グループ」  
 3. 「＋ 作成」  
-4. 名前：`rg-vm-demo-01`、リージョン：Japan East  
-5. 「確認および作成」→「作成」
+4. 名前：`rg-vm-demo-01`、リージョン：(Asia Pacific)Japan East
+5. 「レビューと作成」→「作成」
+
+<img src="../images/02-01-azure-vm-01-rg-create.png" width="300">
 
 ### 3.2 仮想マシン作成（基本）
 
-<img src="../images/02-01-azure-vm-02-basic.png" width="300">
+**Windowsは有料、Ubuntuでも無料のサイズが無いため保留**
 
 1. 上部検索バー → 「仮想マシン」  
 2. 「＋ 作成」→「仮想マシン」  
 3. 基本タブ  
    - リソースグループ：`rg-vm-demo-01`  
-   - VM 名：`vm-win-01`  
-   - リージョン：Japan East  
-   - イメージ：Windows Server 2022 Datacenter: Azure Edition  
-   - サイズ：Standard_B2s  
+   - 仮想マシン名：`vm-ubuntu-01`  
+   - リージョン：(Asia Pacific) Japan East  
+   - イメージ：Ubuntu Server 22.04 LTS  
+   - サイズ：Standard_B1s（無料枠）
 4. 管理者アカウント  
    - ユーザー名：azureuser  
    - パスワード：複雑な 12 文字以上  
 5. 受信ポート：RDP(3389)
 
+<img src="../images/02-01-azure-vm-02-basic.png" width="300">
+
 ### 3.3 ディスク
-
-<img src="../images/02-01-azure-vm-03-disk.png" width="300">
-
 - OS ディスク：Standard HDD  
 - 「VM とともに削除」をオン
 
+<img src="../images/02-01-azure-vm-03-disk.png" width="300">
+
 ### 3.4 ネットワーク
-
-<img src="../images/02-01-azure-vm-04-network.png" width="300">
-
 - VNet：`vnet-vm-demo-01`  
 - Subnet：`subnet-vm-01`  
 - Public IP：`pip-vm-win-01`  
 - NIC：自動作成  
 - 削除時に関連リソースも削除をオン
 
+<img src="../images/02-01-azure-vm-04-network.png" width="300">
+
 ### 3.5 管理・監視
-
-<img src="../images/02-01-azure-vm-05-autoshutdown.png" width="300">
-
 - 自動シャットダウン（UTC+09:00）  
 - 監視は既定のまま
 
+<img src="../images/02-01-azure-vm-05-autoshutdown.png" width="300">
+
 ### 3.6 作成
-
-<img src="../images/02-01-azure-vm-06-review.png" width="300">
-
 - 「確認および作成」→「作成」  
 - デプロイ完了後、「リソースに移動」
 
+<img src="../images/02-01-azure-vm-06-review.png" width="300">
+
 ### 3.7 接続（RDP）
-
-<img src="../images/02-01-azure-vm-07-rdp.png" width="300">
-
 1. VM 概要 → 「接続」→ 「RDP」  
 2. RDP ファイルをダウンロード  
 3. ローカル PC で開く  
 4. azureuser でサインイン
 
+<img src="../images/02-01-azure-vm-07-rdp.png" width="300">
+
 ### 3.8 動作確認（任意：IIS）
+PowerShell（管理者）で次を実行：
+Install-WindowsFeature -name Web-Server -IncludeManagementTools
+ブラウザで Public IP を開き、IIS 初期ページを確認。
 
 <img src="../images/02-01-azure-vm-08-iis.png" width="300">
 
-PowerShell（管理者）で次を実行：
-
-Install-WindowsFeature -name Web-Server -IncludeManagementTools
-
-ブラウザで Public IP を開き、IIS 初期ページを確認。
-
 ### 3.9 クリーンアップ
-
-<img src="../images/02-01-azure-vm-09-rg-delete.png" width="300">
-
 1. VM → リソースグループへ移動  
 2. 「リソース グループの削除」  
 3. `rg-vm-demo-01` と入力 → 削除
+
+<img src="../images/02-01-azure-vm-09-rg-delete.png" width="300">
 
 ## 4. 結果（Output）
 - Windows Server 2022 VM が Azure 上に作成  
