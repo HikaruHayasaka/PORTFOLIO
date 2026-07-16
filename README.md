@@ -48,7 +48,7 @@
 
 - [NSG / パブリックIP]有償のため保留 <!-- (portfolio/02-02-nsg-public-ip.md)-->
 
-- [Storage アカウント（Blob）] (portfolio/02-03-storage-blob.md)
+- [Storage アカウント（Blob）](portfolio/02-03-storage-blob.md)
 
 <img src="images/02-03-storage-blob-02-storage-account-create.png" width="300">
 
