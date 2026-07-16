@@ -5,7 +5,7 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 
 ## 2. 設計（What）
 - リソース グループ名：`rg-storage-demo-01`
-- ストレージ アカウント名：`stblob-demo-01`
+- ストレージ アカウント名：`stblobdemo01`
 - コンテナー名：`container-demo`
 - Blob：`sample.txt`
 - アクセスレベル：`非公開`
@@ -34,7 +34,7 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
    - ストレージ アカウント名：`stblobdemo01`
    （フィールドに使用できるのは、小文字と数字のみです。名前は 3 ～ 24 文字である必要があります。）
    - リージョン：`(Asia Pacific)Japan East`
-   - プライマリサービス（優先ストレージの種類）：`Azure Blob Storage または Azure Data Lake Strage`
+   - プライマリサービス（優先ストレージの種類）：`Azure Blob Storage または Azure Data Lake Storage`
    - パフォーマンス：`Standard`
    - 冗長性：`LRS`
 4. レビューと作成 → 作成
@@ -64,9 +64,8 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 ### 3-5. Blob のアクセス確認
 1. アップロードした Blob を選択する。
 2. 「URL」をコピーし、アクセスできるかを確認する。
-（非公開コンテナーの場合、URL にアクセスしても表示されない。）
-4. 必要に応じて「SAS の生成」でアクセス権を付与する。
-（今回は使用しない）
+（非公開コンテナーの場合、URLにアクセスしても表示されない。）
+3. 必要に応じて「SAS の生成」でアクセス権を付与する。（今回は使用しない）
    - 開始時刻・終了時刻
    - 許可する操作（読み取りなど）
    - 生成された SAS URL を確認する
