@@ -27,11 +27,11 @@
 ### Entra ID（ID管理）
 - [ユーザー管理・グループ管理・ロール管理](portfolio/01-01-entra-id.md)
 
-<img src="images/user-list.png" width="300">
+<img src="images/01-01-entra-id-01-user-list.png" width="300">
 
 - [MFA（認証方法ポリシー）](portfolio/01-02-mfa-authentication-policy.md)
 
-<img src="images/auth-methods-policy.png" width="300">
+<img src="images/01-02-mfa-authentication-policy-01-auth-methods-policy.png" width="300">
 
 - 条件付きアクセス（MFA 要求） ライセンス無しのため保留
 
@@ -42,7 +42,7 @@
 
 - [SSPR（Self-Service Password Reset）](portfolio/01-04-sspr.md)
 
-<img src="images/sspr.png" width="150">
+<img src="images/01-04-sspr.png" width="150">
 
 - [監査ログ](portfolio/01-05-entra-audit-log.md)
 
@@ -52,17 +52,17 @@
 
 ### 以下作成中
 ---
-### 監視（Azure Monitor）
-- [メトリック監視（VM / Storage / Network）] <!--(portfolio/02-01-monitor-metrics.md)-->
-- [アラートルール作成] <!--(portfolio/02-02-monitor-alert-rule.md)-->
-- [Log Analytics ワークスペース] <!--(portfolio/02-03-monitor-log-analytics.md)-->
-- [KQL クエリ（基本）] <!--(portfolio/02-04-monitor-kql-basic.md)-->
-
 ### 基盤（VM / Storage / Virtual Network）
-- [VM 作成（Windows/Linux）] <!--(portfolio/03-01-vm-create.md)-->
-- [NSG / パブリックIP] <!--(portfolio/03-02-nsg-public-ip.md)-->
-- [Storage アカウント（Blob）] <!--(portfolio/03-03-storage-blob.md)-->
-- [VNet / サブネット構成] <!--(portfolio/03-04-vnet-subnet.md)-->
+- [VM 作成（Windows/Linux）] <!--(portfolio/02-01-vm-create.md)-->
+- [NSG / パブリックIP] <!--(portfolio/02-02-nsg-public-ip.md)-->
+- [Storage アカウント（Blob）] <!--(portfolio/02-03-storage-blob.md)-->
+- [VNet / サブネット構成] <!--(portfolio/02-04-vnet-subnet.md)-->
+
+### 監視（Azure Monitor）
+- [メトリック監視（VM / Storage / Network）] <!--(portfolio/03-01-monitor-metrics.md)-->
+- [アラートルール作成] <!--(portfolio/03-02-monitor-alert-rule.md)-->
+- [Log Analytics ワークスペース] <!--(portfolio/03-03-monitor-log-analytics.md)-->
+- [KQL クエリ（基本）] <!--(portfolio/03-04-monitor-kql-basic.md)-->
 
 ### ガバナンス（Azure Policy）
 - [Policy 割り当て] <!--(portfolio/04-01-policy-assignment.md)-->

@@ -32,7 +32,7 @@ Entra ID の新しい UI では「セキュリティの既定値（Security defa
    - パスキー → **はい**  
    - 一時アクセスパス → **はい**
 
-<img src="../images/auth-methods-policy.png" width="300">
+<img src="../images/01-02-mfa-authentication-policy-01-auth-methods-policy.png" width="300">
 
 ---
 
@@ -44,7 +44,7 @@ Entra ID の新しい UI では「セキュリティの既定値（Security defa
    → これは **ユーザーがまだ MFA を登録していない正常な状態**  
    → 次回ログイン時に Authenticator の登録が必須になる
 
-<img src="../images/user-auth-methods-test01.png" width="300">
+<img src="../images/01-02-mfa-authentication-policy-02-user-auth-methods.png" width="300">
 
 ---
 
