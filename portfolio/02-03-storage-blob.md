@@ -8,8 +8,8 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 - ストレージ アカウント名：`stblob-demo-01`
 - コンテナー名：`container-demo`
 - Blob：`sample.txt`
-- アクセスレベル：非公開
-- 冗長性：ローカル冗長ストレージ（LRS）
+- アクセスレベル：`非公開`
+- 冗長性：`ローカル冗長ストレージ（LRS）`
 
 ## 3. 手順（How：GUI）
 
