@@ -30,7 +30,7 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 2. ＋作成 を押す。
 3. 以下を設定する：
    - サブスクリプション：`Azure subscription 1`
-   - リソース グループ：`rg-vm-demo-01`
+   - リソース グループ：`rg-storage-demo-01`
    - ストレージ アカウント名：`stblobdemo01`
    （フィールドに使用できるのは、小文字と数字のみです。名前は 3 ～ 24 文字である必要があります。）
    - リージョン：`(Asia Pacific)Japan East`
