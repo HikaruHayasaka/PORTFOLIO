@@ -7,8 +7,8 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 - リソース グループ名：`rg-storage-demo-01`
 - ストレージ アカウント名：`stblob-demo-01`
 - コンテナー名：`container-demo`
-- Blob：任意のファイル（例：sample.txt）
-- アクセスレベル：非公開（推奨）
+- Blob：`sample.txt`
+- アクセスレベル：非公開
 - 冗長性：ローカル冗長ストレージ（LRS）
 
 ## 3. 手順（How：GUI）
@@ -18,9 +18,9 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 2. 左メニュー → Resource Manager → リソース グループ
 3. ＋作成 を押す。
 4. 以下を設定する：
-   - サブスクリプション：Azure subscription 1
+   - サブスクリプション：`Azure subscription 1`
    - リソース グループ名：`rg-storage-demo-01`
-   - リージョン：(Asia Pacific)Japan East
+   - リージョン：`(Asia Pacific)Japan East`
 5. レビューと作成 → 作成
 
 <img src="../images/02-03-storage-blob-01-resource-group.png" width="300">
@@ -29,14 +29,14 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 1. 左メニュー → ストレージ アカウント
 2. ＋作成 を押す。
 3. 以下を設定する：
-   - サブスクリプション：Azure subscription 1
-   - リソース グループ：rg-vm-demo-01
-   - ストレージ アカウント名：stblobdemo01
+   - サブスクリプション：`Azure subscription 1`
+   - リソース グループ：`rg-vm-demo-01`
+   - ストレージ アカウント名：`stblobdemo01`
    （フィールドに使用できるのは、小文字と数字のみです。名前は 3 ～ 24 文字である必要があります。）
-   - リージョン：(Asia Pacific)Japan East
-   - プライマリサービス（優先ストレージの種類）：Azure Blob Storage または Azure Data Lake Strage
-   - パフォーマンス：Standard
-   - 冗長性：LRS
+   - リージョン：`(Asia Pacific)Japan East`
+   - プライマリサービス（優先ストレージの種類）：`Azure Blob Storage または Azure Data Lake Strage`
+   - パフォーマンス：`Standard`
+   - 冗長性：`LRS`
 4. レビューと作成 → 作成
 
 <img src="../images/02-03-storage-blob-02-storage-account-create.png" width="300">
@@ -55,7 +55,7 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 ### 3-4. Blob のアップロード
 1. コンテナー `container-demo` を開く。
 2. 「アップロード」を押す。
-3. 任意のファイル（sample.txt）を選択する。
+3. 任意のファイル（`sample.txt`）を選択する。
 空のテキストファイルでよい
 4. 「アップロード」を押す。
 
@@ -74,14 +74,14 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 
 <img src="../images/02-03-storage-blob-05-blob-url-sas.png" width="300">
 
-## 4. 結果（Output）
+## 4. 結果
 - リソースグループが作成された。
 - ストレージアカウントが作成された。
 - コンテナーが作成された。
 - Blob がアップロードされた。
 - Blob のアクセス方法（URL と SAS）を理解した。
 
-## 5. 学び（Insight）
+## 5. 学び
 - ストレージアカウント → コンテナー → Blob の階層構造を理解した。
 - 非公開コンテナーでは SAS を使ってアクセス権を付与する必要がある。
 - Azure Storage のアクセス制御は「ネットワーク」「SAS」「RBAC」の 3 層で構成されていることを理解した。
