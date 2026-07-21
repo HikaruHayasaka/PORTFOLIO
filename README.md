@@ -52,7 +52,7 @@
 
 <img src="images/02-03-storage-blob-02-storage-account-create.png" width="300">
 
-- [VNet / サブネット構成] <!--(portfolio/02-04-vnet-subnet.md)-->
+- [VNet / サブネット構成] (portfolio/02-04-vnet-subnet.md)
 
 <img src="images/02-04-vnet-02-vnet-create.png" width="300">
 
