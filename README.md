@@ -33,7 +33,7 @@
 
 <img src="images/01-02-mfa-authentication-policy-01-auth-methods-policy.png" width="300">
 
-- [条件付きアクセス（MFA 要求）]ライセンスが必要なため保留<!--(portfolio/01-03-entra-ca.md)-->
+- [条件付きアクセス（MFA 要求）]ライセンス取得後に作成予定<!--(portfolio/01-03-entra-ca.md)-->
 
 - [SSPR（Self-Service Password Reset）](portfolio/01-04-sspr.md)
 
@@ -44,21 +44,22 @@
 <img src="images/01-05-entra-audit-log-01-menu.png" width="300">
 
 ### 基盤（VM / Storage / Virtual Network）
-- [VM 作成（Windows/Linux）]有償のため保留 <!--(portfolio/02-01-vm-create.md)-->
+- [VM 作成（Windows/Linux）]有償課金後に作成予定 <!--(portfolio/02-01-vm-create.md)-->
 
-- [NSG / パブリックIP]有償のため保留 <!-- (portfolio/02-02-nsg-public-ip.md)-->
+- [NSG / パブリックIP]有償課金後に作成予定 <!-- (portfolio/02-02-nsg-public-ip.md)-->
 
 - [Storage アカウント（Blob）](portfolio/02-03-storage-blob.md)
 
 <img src="images/02-03-storage-blob-02-storage-account-create.png" width="300">
 
+- [VNet / サブネット構成] <!--(portfolio/02-04-vnet-subnet.md)-->
+
+<img src="images/02-04-vnet-02-vnet-create.png" width="300">
+
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
 ### 以下作成中
 ---
-
-- [VNet / サブネット構成] <!--(portfolio/02-04-vnet-subnet.md)-->
-
 ### 監視（Azure Monitor）
 - [メトリック監視（VM / Storage / Network）] <!--(portfolio/03-01-monitor-metrics.md)-->
 - [アラートルール作成] <!--(portfolio/03-02-monitor-alert-rule.md)-->
