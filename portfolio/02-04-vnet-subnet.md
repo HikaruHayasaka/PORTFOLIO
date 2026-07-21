@@ -22,7 +22,7 @@ Azure Portal を使用して、仮想ネットワーク（VNet）とサブネッ
    - リージョン：`(Asia Pacific) Japan East`
 5. **レビューおよび作成 → 作成**
 
-<img src="images/02-04-vnet-01-resource-group.png" width="300">
+<img src="../images/02-04-vnet-01-resource-group.png" width="300">
 
 ### 3-2. 仮想ネットワーク（VNet）の作成
 1. 左メニュー → **仮想ネットワーク**
@@ -37,7 +37,7 @@ Azure Portal を使用して、仮想ネットワーク（VNet）とサブネッ
    - ＋アドレス空間の追加 → IPv4 アドレス空間の追加
    - 保存を押す
 
-<img src="images/02-04-vnet-02-vnet-create.png" width="300">
+<img src="../images/02-04-vnet-02-vnet-create.png" width="300">
 
 ### 3-3. サブネットの作成
    - ＋サブネット を押す。
@@ -47,7 +47,7 @@ Azure Portal を使用して、仮想ネットワーク（VNet）とサブネッ
      - サイズ：/24(256個のアドレス)
      - 追加をクリック。
 
-<img src="images/02-04-vnet-03-subnet-create.png" width="300">
+<img src="../images/02-04-vnet-03-subnet-create.png" width="300">
 
 ### 3-4. ネットワーク構成の確認
 1. 左メニュー → **仮想ネットワーク**
@@ -56,7 +56,7 @@ Azure Portal を使用して、仮想ネットワーク（VNet）とサブネッ
 4. アドレス空間 `10.0.0.0/16` が設定されていることを確認する。
 5. サブネット `subnet-demo-01` が存在することを確認する。
 
-<img src="images/02-04-vnet-04-vnet-overview.png" width="300">
+<img src="../images/02-04-vnet-04-vnet-overview.png" width="300">
 
 
 ### 3-5. 課金対象リソースの確認
@@ -65,7 +65,7 @@ Azure Portal を使用して、仮想ネットワーク（VNet）とサブネッ
 3. 細分性 → 日単位
 4. 意図していない課金が発生していないかを確認する。
 
-<img src="images/02-04-vnet-05-cost-analysis.png" width="300">
+<img src="../images/02-04-vnet-05-cost-analysis.png" width="300">
 
 ## 4. 結果
 - リソース グループが作成された。
