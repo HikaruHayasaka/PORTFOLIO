@@ -21,7 +21,7 @@ Azure Monitor のアラート機能を利用するためには、サブスクリプションで **Microsoft
 5. 一覧から **Microsoft.Insights** を選択し、状態が「未登録(NotRegistered)」の場合は **登録** を押す。
 6. 数秒で「Registering」に変わることを確認する。
 
-<img src="images/02-04-monitor-01-resource-provider.png" width="300">
+<img src="../images/02-04-monitor-01-resource-provider.png" width="300">
 
 ### 3-2. アラートルールの作成（Activity Log アラート）
 Azure の操作ログ（Activity Log）を監視することで、  
@@ -47,7 +47,7 @@ Azure の操作ログ（Activity Log）を監視することで、
    - 説明：対象リソースの操作ログイベントを検知するアラート  
 8. **確認および作成 → 作成** をクリック。
 
-<img src="images/02-04-monitor-02-alert-rule.png" width="300">
+<img src="../images/02-04-monitor-02-alert-rule.png" width="300">
 
 ### 3-3. 動作確認
 1. ストレージアカウントのコンテナにファイルをアップロードし、アラートを発生させる。
@@ -55,9 +55,9 @@ Azure の操作ログ（Activity Log）を監視することで、
 3. アクティビティログを選択、ログが表示されることを確認。
 4. 設定したメールアドレスに、メール通知が届くことを確認。
 
-<img src="images/02-04-monitor-03-alert-history.png" width="300">
+<img src="../images/02-04-monitor-03-alert-history.png" width="300">
 
-<img src="images/02-04-monitor-04-alert-mail.png" width="300">
+<img src="../images/02-04-monitor-04-alert-mail.png" width="300">
 
 ## 4. 結果
 - 仮想マシンを作成せずにアラートルールを構築できた。
