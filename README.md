@@ -73,7 +73,10 @@
 ### 以下作成中
 ---
 ### 監視（Azure Monitor）
-- [メトリック監視（VM / Storage / Network）] <!--(portfolio/03-01-monitor-metrics.md)-->
+- [メトリック監視（VM / Storage / Network）] 
+<!--(portfolio/03-01-monitor-metrics.md)-->
+
+
 - [アラートルール作成] <!--(portfolio/03-02-monitor-alert-rule.md)-->
 - [Log Analytics ワークスペース] <!--(portfolio/03-03-monitor-log-analytics.md)-->
 - [KQL クエリ（基本）] <!--(portfolio/03-04-monitor-kql-basic.md)-->
