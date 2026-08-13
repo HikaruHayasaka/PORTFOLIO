@@ -70,7 +70,8 @@
 
 ### 監視（Azure Monitor）
 - [メトリック監視（VM / Storage / Network）](portfolio/03-01-monitor-metrics.md)
-- [アラートルール作成] (portfolio/03-02-monitor-alert-rule.md)
+
+- [アラートルール作成](portfolio/03-02-monitor-alert-rule.md)
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
