@@ -49,14 +49,14 @@ Storage アカウントの状態を数値（メトリック）で継続的に把
 1. Azure ポータルにサインイン  
 2. 左メニュー → 監視 → メトリック
 
-<img src="../images/02-04-storage-01-open.png" width="300">
+<img src="../images/03-01-storage-01-open.png" width="300">
 
 ### 4-2 スコープで Storage アカウントを選択
 1. メトリック画面上部の **スコープ** をクリック  
 2. サブスクリプション → リソース グループ → **Storage アカウント** を選択  
 3. **適用** をクリック
 
-<img src="../images/02-04-storage-02-scope.png" width="300">
+<img src="../images/03-01-storage-02-scope.png" width="300">
 
 ### 4-3 メトリックを選択して表示する
 1. 「メトリック」ドロップダウンを開く  
@@ -69,21 +69,21 @@ Storage アカウントの状態を数値（メトリック）で継続的に把
 3. 集計方法（平均 / 合計 / 最大）を選択  
 4. 時間範囲を設定（例：過去 24 時間）
 
-<img src="../images/02-04-storage-03-metric-select.png" width="300">
+<img src="../images/03-01-storage-03-metric-select.png" width="300">
 
 ### 4-4 複数メトリックの重ね合わせ
 1. **メトリックの追加** をクリック  
 2. 別のメトリックを選択  
 3. 色分けや軸（左軸／右軸）を調整して見やすくする
 
-<img src="../images/02-04-storage-04-multi-metric.png" width="300">
+<img src="../images/03-01-storage-04-multi-metric.png" width="300">
 
 ### 4-5 チャートの保存とダッシュボード化
 1. グラフ右上の **ピン留め** をクリック  
 2. ダッシュボードに追加  
 3. ウィジェットのサイズや配置を調整
 
-<img src="../images/02-04-storage-05-pin-dashboard.png" width="300">
+<img src="../images/03-01-storage-05-pin-dashboard.png" width="300">
 
 ### 4-6 アラートルールの作成（Storage のみで可能）
 1. 左メニュー → **アラート**  
@@ -94,7 +94,7 @@ Storage アカウントの状態を数値（メトリック）で継続的に把
 6. 通知先（メールなど）を設定  
 7. ルール名を付けて作成
 
-<img src="../images/02-04-storage-06-alert-rule.png" width="300">
+<img src="../images/03-01-storage-06-alert-rule.png" width="300">
 
 ### 4-7 診断設定と Log Analytics（必要時）
 ※無料環境では **設定画面の確認のみ推奨**（取り込みは課金）
@@ -103,7 +103,7 @@ Storage アカウントの状態を数値（メトリック）で継続的に把
 3. 送信するログ種別を選択  
 4. 保存期間・取り込み量に注意（課金対象）
 
-<img src="../images/02-04-storage-07-diagnostic.png" width="300">
+<img src="../images/03-01-storage-07-diagnostic.png" width="300">
 
 ## 5. メトリック監視で得られる判断材料
 - **要求数の急増** → アプリケーション負荷の増加  
