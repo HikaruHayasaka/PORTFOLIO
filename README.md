@@ -72,15 +72,11 @@
 - [メトリック監視（VM / Storage / Network）](portfolio/03-01-monitor-metrics.md)
 - [アラートルール作成](portfolio/03-02-monitor-alert-rule.md)
 - [Log Analytics ワークスペース](portfolio/03-03-monitor-log-analytics.md)
+- [KQL クエリ（基本）](portfolio/03-04-monitor-kql-basic.md)
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 
 ### 以下作成中
----
-
-
-- [KQL クエリ（基本）] <!--(portfolio/03-04-monitor-kql-basic.md)-->
-
 ### ガバナンス（Azure Policy）
 - [Policy 割り当て] <!--(portfolio/04-01-policy-assignment.md)-->
 - [Compliance の確認] <!--(portfolio/04-02-policy-compliance.md)-->
