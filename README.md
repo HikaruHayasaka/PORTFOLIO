@@ -1,92 +1,106 @@
-# æŠ€è¡“PR
+# ‹ZpPR
 
-## ç›®æŒ‡ã™ã‚­ãƒ£ãƒªã‚¢
-- ã‚¯ãƒ©ã‚¦ãƒ‰ã®ä¿å®ˆé‹ç”¨é ˜åŸŸã§ã‚­ãƒ£ãƒªã‚¢ã‚’é–‹å§‹ã™ã‚‹ã€‚
-- IDç®¡ç†ã€ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã€ã‚¬ãƒãƒŠãƒ³ã‚¹é ˜åŸŸã¸æ‹¡å¤§ã™ã‚‹ã€‚
+## –ÚŽw‚·ƒLƒƒƒŠƒA
+- ƒNƒ‰ƒEƒh‚Ì•ÛŽç‰^—p—Ìˆæ‚ÅƒLƒƒƒŠƒA‚ðŠJŽn‚·‚éB
+- IDŠÇ—AƒZƒLƒ…ƒŠƒeƒBAƒKƒoƒiƒ“ƒX—Ìˆæ‚ÖŠg‘å‚·‚éB
 
 <!-- 
-## ã‚„ã‚ŠãŸã„ã“ã¨
-- å¸¸ã«æ–°ã—ã„ã“ã¨ã‚’å­¦ã³ã€è‡ªåˆ†ã‚„å‘¨å›²ã®æ¥­å‹™ã‚’æ”¹å–„ã™ã‚‹ã€‚
-- ã‚¯ãƒ©ã‚¦ãƒ‰ã®ã‚­ãƒ£ãƒªã‚¢ã‚’ç©ã¿ãƒªãƒ¢ãƒ¼ãƒˆãƒ¯ãƒ¼ã‚¯ã‚’å®Ÿç¾ã—ã€ä»•äº‹ã¨å®¶åº­ã‚’ä¸¡ç«‹ã™ã‚‹ã€‚
+## ‚â‚è‚½‚¢‚±‚Æ
+- í‚ÉV‚µ‚¢‚±‚Æ‚ðŠw‚ÑAŽ©•ª‚âŽüˆÍ‚Ì‹Æ–±‚ð‰ü‘P‚·‚éB
+- ƒNƒ‰ƒEƒh‚ÌƒLƒƒƒŠƒA‚ðÏ‚ÝƒŠƒ‚[ƒgƒ[ƒN‚ðŽÀŒ»‚µAŽdŽ–‚Æ‰Æ’ë‚ð—¼—§‚·‚éB
 -->
  
-## çµŒæ­´
-- ã‚½ãƒ•ãƒˆã®ã‚ªãƒšãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ãƒžãƒ‹ãƒ¥ã‚¢ãƒ«(æ•°ç™¾ãƒšãƒ¼ã‚¸)ã‚’ä½œæˆã—ã€åˆ¤ã‚Šã‚„ã™ã„è³‡æ–™ä½œæˆã®æ–¹æ³•ã‚’ç¿’å¾—ã—ãŸã€‚
-- ãƒãƒ¼ãƒ ãƒªãƒ¼ãƒ€ãƒ¼ã‚’ï¼–å¹´é–“çµŒé¨“ã—ã€äººã¨ã®æŽ¥ã—æ–¹ã€æƒ…å ±å…±æœ‰ã®ä»•æ–¹ã‚’ç¿’å¾—ã—ãŸã€‚
-- ã“ã‚Œã‚‰ã®çµŒé¨“ã¯ã€ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆä½œæˆãŠã‚ˆã³ã€ITæ¥­å‹™ã§ã®ãƒãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯ã«æ´»ã‹ã›ã‚‹ã¨è€ƒãˆã¦ã„ã‚‹ã€‚
+## Œo—ð
+- ƒ\ƒtƒg‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ƒ}ƒjƒ…ƒAƒ‹(”•Sƒy[ƒW)‚ðì¬‚µA”»‚è‚â‚·‚¢Ž‘—¿ì¬‚Ì•û–@‚ðK“¾‚µ‚½B
+- ƒ`[ƒ€ƒŠ[ƒ_[‚ð‚U”NŠÔŒoŒ±‚µAl‚Æ‚ÌÚ‚µ•ûAî•ñ‹¤—L‚ÌŽd•û‚ðK“¾‚µ‚½B
+- ‚±‚ê‚ç‚ÌŒoŒ±‚ÍAƒhƒLƒ…ƒƒ“ƒgì¬‚¨‚æ‚ÑAIT‹Æ–±‚Å‚Ìƒ`[ƒ€ƒ[ƒN‚ÉŠˆ‚©‚¹‚é‚Æl‚¦‚Ä‚¢‚éB
 
-## è³‡æ ¼
-- åŸºæœ¬æƒ…å ±æŠ€è¡“è€… / æƒ…å ±ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ãƒžãƒã‚¸ãƒ¡ãƒ³ãƒˆ
+## Ž‘Ši
+- Šî–{î•ñ‹ZpŽÒ / î•ñƒZƒLƒ…ƒŠƒeƒBƒ}ƒlƒWƒƒ“ƒg
 - AZ-900 (Azure Fundamentals)
 - DP-900 (Azure Data Fundamentals)
 - AI-900 (Azure AI Fundamentals)
 - PL-900 (Power Platform Fundamentals)
-- ï¼ˆå­¦ç¿’ä¸­ï¼‰AZ-104 (Azure Administrator)
+- iŠwK’†jAZ-104 (Azure Administrator)
 
-##  å­¦ç¿’ãƒ­ã‚°
-### Entra IDï¼ˆIDç®¡ç†ï¼‰
-- [ãƒ¦ãƒ¼ã‚¶ãƒ¼ç®¡ç†ãƒ»ã‚°ãƒ«ãƒ¼ãƒ—ç®¡ç†ãƒ»ãƒ­ãƒ¼ãƒ«ç®¡ç†](portfolio/01-01-entra-id.md)
+##  ŠwKƒƒO
+### Entra IDiIDŠÇ—j
+- [ƒ†[ƒU[ŠÇ—EƒOƒ‹[ƒvŠÇ—Eƒ[ƒ‹ŠÇ—](portfolio/01-01-entra-id.md)
 
 <!--
 <img src="images/01-01-entra-id-01-user-list.png" width="300">
 -->
 
-- [MFAï¼ˆèªè¨¼æ–¹æ³•ãƒãƒªã‚·ãƒ¼ï¼‰](portfolio/01-02-mfa-authentication-policy.md)
+- [MFAi”FØ•û–@ƒ|ƒŠƒV[j](portfolio/01-02-mfa-authentication-policy.md)
 
 <!--
 <img src="images/01-02-mfa-authentication-policy-01-auth-methods-policy.png" width="300">
 -->
 
-- [æ¡ä»¶ä»˜ãã‚¢ã‚¯ã‚»ã‚¹ï¼ˆMFA è¦æ±‚ï¼‰]ãƒ©ã‚¤ã‚»ãƒ³ã‚¹å–å¾—å¾Œã«ä½œæˆäºˆå®š<!--(portfolio/01-03-entra-ca.md)-->
+- [ðŒ•t‚«ƒAƒNƒZƒXiMFA —v‹j]ƒ‰ƒCƒZƒ“ƒXŽæ“¾Œã‚Éì¬—\’è<!--(portfolio/01-03-entra-ca.md)-->
 
-- [SSPRï¼ˆSelf-Service Password Resetï¼‰](portfolio/01-04-sspr.md)
+- [SSPRiSelf-Service Password Resetj](portfolio/01-04-sspr.md)
 
 <!--
 <img src="images/01-04-sspr.png" width="150">
 -->
 
-- [ç›£æŸ»ãƒ­ã‚°](portfolio/01-05-entra-audit-log.md)
+- [ŠÄ¸ƒƒO](portfolio/01-05-entra-audit-log.md)
 
 <!--
 <img src="images/01-05-entra-audit-log-01-menu.png" width="300">
 -->
 
-### åŸºç›¤ï¼ˆVM / Storage / Virtual Networkï¼‰
-- [VM ä½œæˆï¼ˆWindows/Linuxï¼‰]æœ‰å„Ÿèª²é‡‘å¾Œã«ä½œæˆäºˆå®š <!--(portfolio/02-01-vm-create.md)-->
+### Šî”ÕiVM / Storage / Virtual Networkj
+- [VM ì¬iWindows/Linuxj]—Lž‰Û‹àŒã‚Éì¬—\’è <!--(portfolio/02-01-vm-create.md)-->
 
-- [NSG / ãƒ‘ãƒ–ãƒªãƒƒã‚¯IP]æœ‰å„Ÿèª²é‡‘å¾Œã«ä½œæˆäºˆå®š <!-- (portfolio/02-02-nsg-public-ip.md)-->
+- [NSG / ƒpƒuƒŠƒbƒNIP]—Lž‰Û‹àŒã‚Éì¬—\’è <!-- (portfolio/02-02-nsg-public-ip.md)-->
 
-- [Storage ã‚¢ã‚«ã‚¦ãƒ³ãƒˆï¼ˆBlobï¼‰](portfolio/02-03-storage-blob.md)
+- [Storage ƒAƒJƒEƒ“ƒgiBlobj](portfolio/02-03-storage-blob.md)
 
 <!--
 <img src="images/02-03-storage-blob-02-storage-account-create.png" width="300">
 -->
 
-- [VNet / ã‚µãƒ–ãƒãƒƒãƒˆæ§‹æˆ](portfolio/02-04-vnet-subnet.md)
+- [VNet / ƒTƒuƒlƒbƒg\¬](portfolio/02-04-vnet-subnet.md)
 
 <!--
 <img src="images/02-04-vnet-02-vnet-create.png" width="300">
 -->
 
-### ç›£è¦–ï¼ˆAzure Monitorï¼‰
-- [ãƒ¡ãƒˆãƒªãƒƒã‚¯ç›£è¦–ï¼ˆVM / Storage / Networkï¼‰](portfolio/03-01-monitor-metrics.md)
+### ŠÄŽ‹iAzure Monitorj
+- [ƒƒgƒŠƒbƒNŠÄŽ‹iVM / Storage / Networkj](portfolio/03-01-monitor-metrics.md)
+- [ƒAƒ‰[ƒgƒ‹[ƒ‹ì¬](portfolio/03-02-monitor-alert-rule.md)
+- [Log Analytics ƒ[ƒNƒXƒy[ƒX](portfolio/03-03-monitor-log-analytics.md)
 
-- [ã‚¢ãƒ©ãƒ¼ãƒˆãƒ«ãƒ¼ãƒ«ä½œæˆ](portfolio/03-02-monitor-alert-rule.md)
+#### ‚±‚Ìƒy[ƒW‚ÍAGitHubAVSCodeAMarkdown‚ðŽg—p‚µ‚Äì¬‚µ‚Ü‚µ‚½B
 
-#### ã“ã®ãƒšãƒ¼ã‚¸ã¯ã€GitHubã€VSCodeã€Markdownã‚’ä½¿ç”¨ã—ã¦ä½œæˆã—ã¾ã—ãŸã€‚
-
-### ä»¥ä¸‹ä½œæˆä¸­
+### ˆÈ‰ºì¬’†
 ---
 
-- [Log Analytics ãƒ¯ãƒ¼ã‚¯ã‚¹ãƒšãƒ¼ã‚¹] <!--(portfolio/03-03-monitor-log-analytics.md)-->
-- [KQL ã‚¯ã‚¨ãƒªï¼ˆåŸºæœ¬ï¼‰] <!--(portfolio/03-04-monitor-kql-basic.md)-->
 
-### ã‚¬ãƒãƒŠãƒ³ã‚¹ï¼ˆAzure Policyï¼‰
-- [Policy å‰²ã‚Šå½“ã¦] <!--(portfolio/04-01-policy-assignment.md)-->
-- [Compliance ã®ç¢ºèª] <!--(portfolio/04-02-policy-compliance.md)-->
-- [Initiative ä½œæˆ] <!--(portfolio/04-03-policy-initiative.md)-->
+- [KQL ƒNƒGƒŠiŠî–{j] <!--(portfolio/03-04-monitor-kql-basic.md)-->
 
-### ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ï¼ˆDefender for Cloudï¼‰
-- [Secure Score ã®ç¢ºèª] <!--(portfolio/05-01-defender-secure-score.md)-->
-- [æŽ¨å¥¨äº‹é …ã®é©ç”¨] <!--(portfolio/05-02-defender-recommendations.md)-->
-- [ã‚¢ãƒ©ãƒ¼ãƒˆç¢ºèª]æœ‰å„Ÿèª²é‡‘å¾Œã«ä½œæˆäºˆå®š <!--(portfolio/05-03-defender-alerts.md)-->
+### ƒKƒoƒiƒ“ƒXiAzure Policyj
+- [Policy Š„‚è“–‚Ä] <!--(portfolio/04-01-policy-assignment.md)-->
+- [Compliance ‚ÌŠm”F] <!--(portfolio/04-02-policy-compliance.md)-->
+- [Initiative ì¬] <!--(portfolio/04-03-policy-initiative.md)-->
+
+### ƒZƒLƒ…ƒŠƒeƒBiDefender for Cloudj
+- [Secure Score ‚ÌŠm”F] <!--(portfolio/05-01-defender-secure-score.md)-->
+- [„§Ž–€‚Ì“K—p] <!--(portfolio/05-02-defender-recommendations.md)-->
+- [ƒAƒ‰[ƒgŠm”F]—Lž‰Û‹àŒã‚Éì¬—\’è <!--(portfolio/05-03-defender-alerts.md)-->
+
+### ƒoƒbƒNƒAƒbƒv / ƒŠƒJƒoƒŠiAzure Backup)
+- [Recovery Services ƒRƒ“ƒeƒi[ì¬]
+- [VM ƒoƒbƒNƒAƒbƒviƒ|ƒŠƒV[Ý’èj]—Lž‰Û‹àŒã‚Éì¬—\’è
+- [VM ‚Ì•œŒ³iƒtƒ@ƒCƒ‹‰ñ•œ / VM‘S‘Ìj]—Lž‰Û‹àŒã‚Éì¬—\’è
+- [Blob ‚Ìƒ\ƒtƒgƒfƒŠ[ƒg / ƒXƒiƒbƒvƒVƒ‡ƒbƒg]
+- [Storage ƒAƒJƒEƒ“ƒg‚Ìç’·«iLRS / GRSj‚Ì—‰ð‚ÆÝ’è]
+
+### ƒRƒXƒgŠÇ—iCost Managementj
+- [ƒRƒXƒg•ªÍiCost Analysisj‚Å‚ÌƒŠƒ\[ƒX•ÊƒRƒXƒgŠm”F]
+- [—\ŽZiBudgetjì¬‚ÆƒRƒXƒgƒAƒ‰[ƒgÝ’è]
+- [–³—¿˜gE12‚©ŒŽ–³—¿ƒT[ƒrƒX‚Ì®—‚ÆŠˆ—p•ûj]
+- [ƒŠƒ\[ƒX‚Ìƒ^ƒO•t‚¯‚ÆƒRƒXƒgWŒv]
+- [•s—vƒŠƒ\[ƒX‚Ì’I‰µ‚µEíœŽè‡]
