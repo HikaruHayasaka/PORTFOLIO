@@ -87,7 +87,7 @@ StorageBlobLogs
 | order by TimeGenerated desc
 ```
 
-<img src="../images/03-04-kql-basic-04-query-result.png" width="400">
+<img src="../images/03-04-kql-basic-04-query-result.png" width="600">
 
 ### 3-5. クエリ（検索条件）の保存と呼び出し
 1. クエリ編集画面右上の **保存** → **クエリとして保存**を押す。
