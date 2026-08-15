@@ -11,7 +11,7 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構文を理解し、ロ
 ### 3-1. 事前準備 ストレージアカウント診断設定
 1. Azure ポータルにサインインする。
 2. 左メニュー → ストレージアカウント → 対象のストレージアカウントを選択（例：`saalertdemo01`）
-3. 左メニュー → **監視** → **設定** → **診断設定**
+3. 左メニュー → **監視** → **診断設定**
 4. **blob** を選択
 5. **診断設定を追加** をクリック
 6. 診断設定の名前：law-demo-01
@@ -22,14 +22,14 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構文を理解し、ロ
 - **Log Analytics ワークスペースへの送信**
 8. 保存をクリック
 
-<img src="../images/03-04-kql-basic-01-diagnostic-setting.png" width="300">
+<img src="../images/03-04-kql-basic-01-diagnostic-setting.png" width="400">
 
 ### 3-2. 事前準備 ログを発生させる
 1. 左メニュー → ストレージアカウント → 対象のストレージアカウントを選択（例：`saalertdemo01`）
 2. 左メニュー → データストレージ → コンテナー → 対象のコンテナーを選択（例：`container01`）
 3. 任意のファイルで、アップロード、ダウンロード、削除を行う。
 
-<img src="/images/03-04-kql-basic-02-blob-operations.png" width="300">
+<img src="/images/03-04-kql-basic-02-blob-operations.png" width="400">
 
 ### 3-3. Log Analytics ワークスペースのログを開く
 1. Azure ポータルにサインインする。
@@ -39,7 +39,7 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構文を理解し、ロ
 (クエリ ハブ画面が表示される場合は、右上の?ボタンで閉じる)
 5. 右上に **簡易モード** が表示される場合は、下向き三角から **KQLモード** を選択する。
 
-<img src="../images/03-04-kql-basic-03-log-screen.png" width="300">
+<img src="../images/03-04-kql-basic-03-log-screen.png" width="400">
 
 ### 3-4. 基本クエリの実行
 ```
@@ -47,46 +47,55 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構文を理解し、ロ
 StorageBlobLogs
 | order by TimeGenerated desc
 ```
-
-- テーブルの行数を確認
+```
+// テーブルの行数を確認
 StorageBlobLogs
 | count
-
-- 条件で絞り込み（指定したストレージアカウント・コンテナのログのみを表示）
+```
+```
+// 条件で絞り込み（指定したストレージアカウント・コンテナのログのみを表示）
 StorageBlobLogs
 | where AccountName == "saalertdemo01"
 | where ContainerName == "container01"
-
-- 必要な列だけを抽出
+```
+```
+// 必要な列だけを抽出
 StorageBlobLogs
 | project TimeGenerated, OperationName, StatusCode, Uri, CallerIpAddress
-
-- 並び替え（最新のデータが上に来るように並び替える。）
+```
+```
+// 並び替え（最新のデータが上に来るように並び替える。）
 StorageBlobLogs
 | order by TimeGenerated desc
-
-- アップロード操作のみを抽出
+```
+```
+// アップロード操作のみを抽出
 StorageBlobLogs
 | where OperationName == "PutBlob"
 | order by TimeGenerated desc
-
-- ダウンロード操作のみを抽出
+```
+```
+// ダウンロード操作のみを抽出
 StorageBlobLogs
 | where OperationName == "GetBlob"
 | order by TimeGenerated desc
-
-- 削除操作のみを抽出
+```
+```
+// 削除操作のみを抽出
 StorageBlobLogs
 | where OperationName == "DeleteBlob"
 | order by TimeGenerated desc
+```
 
-<img src="../images/03-04-kql-basic-04-query-result.png" width="300">
+<img src="../images/03-04-kql-basic-04-query-result.png" width="400">
 
-### 3-5. クエリの保存
-1. クエリ編集画面右上の **保存** を押す。
+### 3-5. クエリ（検索条件）の保存と呼び出し
+1. クエリ編集画面右上の **保存** → **クエリとして保存**を押す。
 2. 任意の名前を入力し保存する。
+3. 開くときは、画面右上の **クエリハブ** → 任意のクエリを選択
+（下の方にある場合は、画面をスクロールする）
 
-<img src="../images/03-04-kql-basic-05-save-query.png" width="300">
+<img src="../images/03-04-kql-basic-05-save-query.png" width="400">
 
 ### 3-6. 確認：見るべき項目と意味
 - TimeGenerated：操作が実行された日時
