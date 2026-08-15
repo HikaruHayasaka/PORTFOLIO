@@ -60,7 +60,7 @@
 - [KQL クエリ（基本）](portfolio/03-04-monitor-kql-basic.md)
 
 ### ガバナンス（Azure Policy）
-- [Policy 割り当て] <!--(portfolio/04-01-policy-assignment.md)-->
+- [Policy 割り当て](portfolio/04-01-policy-assignment.md)
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 ### 以下作成中
