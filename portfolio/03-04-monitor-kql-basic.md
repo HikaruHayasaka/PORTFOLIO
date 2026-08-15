@@ -22,14 +22,14 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構文を理解し、ロ
 - **Log Analytics ワークスペースへの送信**
 8. 保存をクリック
 
-<img src="../images/03-04-kql-basic-01-diagnostic-setting.png" width="400">
+<img src="../images/03-04-kql-basic-01-diagnostic-setting.png" width="300">
 
 ### 3-2. 事前準備 ログを発生させる
 1. 左メニュー → ストレージアカウント → 対象のストレージアカウントを選択（例：`saalertdemo01`）
 2. 左メニュー → データストレージ → コンテナー → 対象のコンテナーを選択（例：`container01`）
 3. 任意のファイルで、アップロード、ダウンロード、削除を行う。
 
-<img src="/images/03-04-kql-basic-02-blob-operations.png" width="400">
+<img src="/images/03-04-kql-basic-02-blob-operations.png" width="600">
 
 ### 3-3. Log Analytics ワークスペースのログを開く
 1. Azure ポータルにサインインする。
@@ -39,7 +39,7 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構文を理解し、ロ
 (クエリ ハブ画面が表示される場合は、右上の?ボタンで閉じる)
 5. 右上に **簡易モード** が表示される場合は、下向き三角から **KQLモード** を選択する。
 
-<img src="../images/03-04-kql-basic-03-log-screen.png" width="400">
+<img src="../images/03-04-kql-basic-03-log-screen.png" width="300">
 
 ### 3-4. 基本クエリの実行
 ```
@@ -95,7 +95,7 @@ StorageBlobLogs
 3. 開くときは、画面右上の **クエリハブ** → 任意のクエリを選択
 （下の方にある場合は、画面をスクロールする）
 
-<img src="../images/03-04-kql-basic-05-save-query.png" width="400">
+<img src="../images/03-04-kql-basic-05-save-query.png" width="300">
 
 ### 3-6. 確認：見るべき項目と意味
 - TimeGenerated：操作が実行された日時
