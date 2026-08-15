@@ -59,11 +59,12 @@
 - [Log Analytics ワークスペース](portfolio/03-03-monitor-log-analytics.md)
 - [KQL クエリ（基本）](portfolio/03-04-monitor-kql-basic.md)
 
-#### このページは、GitHub、VSCode、Markdownを使用して作成しました。
-
-### 以下作成中
 ### ガバナンス（Azure Policy）
 - [Policy 割り当て] <!--(portfolio/04-01-policy-assignment.md)-->
+
+#### このページは、GitHub、VSCode、Markdownを使用して作成しました。
+### 以下作成中
+
 - [Compliance の確認] <!--(portfolio/04-02-policy-compliance.md)-->
 - [Initiative 作成] <!--(portfolio/04-03-policy-initiative.md)-->
 
