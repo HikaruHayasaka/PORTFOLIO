@@ -62,16 +62,17 @@
 ### ガバナンス（Azure Policy）
 - [Policy 割り当て](portfolio/04-01-policy-assignment.md)
 - [Compliance の確認](portfolio/04-02-policy-compliance.md)
-- [Initiative 作成](portfolio/04-03-policy-initiative.md)
-- [Non-compliant リソースの特定・是正](portfolio/04-04-policy-remediation.md)
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
 ### 以下作成中
 
+- [Initiative 作成]<!--(portfolio/04-03-policy-initiative.md)-->
+- [Non-compliant リソースの特定・是正]<!--(portfolio/04-04-policy-remediation.md)-->
+
 ### セキュリティ（Defender for Cloud）
-- [Secure Score の確認] <!--(portfolio/05-01-defender-secure-score.md)-->
-- [推奨事項の適用] <!--(portfolio/05-02-defender-recommendations.md)-->
-- [アラート確認]有償課金後に作成予定 <!--(portfolio/05-03-defender-alerts.md)-->
+- [Secure Score の確認]<!--(portfolio/05-01-defender-secure-score.md)-->
+- [推奨事項の適用]<!--(portfolio/05-02-defender-recommendations.md)-->
+- [アラート確認]有償課金後に作成予定<!--(portfolio/05-03-defender-alerts.md)-->
 
 ### バックアップ / リカバリ（Azure Backup)
 - [Recovery Services コンテナー作成]
@@ -86,3 +87,8 @@
 - [無料枠・12か月無料サービスの整理と活用方針]
 - [リソースのタグ付けとコスト集計]
 - [不要リソースの棚卸し・削除手順]
+
+### 実務シナリオ（Incident-Scenario）
+- [VM CPU高騰]
+- [サインイン失敗急増（攻撃）]
+- [Storage 403エラー]
