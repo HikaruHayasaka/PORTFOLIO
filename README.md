@@ -42,8 +42,8 @@
 - [Compliance の確認](portfolio/04-02-policy-compliance.md)
 
 #### このページは、GitHub、VSCode、Markdownを使用して作成しました。
-### 以下作成中
 ------
+### 以下作成中
 
 - [Initiative 作成]<!--(portfolio/04-03-policy-initiative.md)-->
 - [Non-compliant リソースの特定・是正]<!--(portfolio/04-04-policy-remediation.md)-->
