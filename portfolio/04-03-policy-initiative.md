@@ -1,5 +1,4 @@
 # Azure PolicyFInitiative ì¬
-
 ## 1. –Ú“I
 •¡”‚Ìƒ|ƒŠƒV[‚ğ‚Ü‚Æ‚ß‚ÄŠÇ—‚·‚é‚½‚ßAInitiativeiƒ|ƒŠƒV[ ƒZƒbƒgj‚ğì¬‚·‚éè‡‚ğ‹LÚ‚·‚éB
 
@@ -14,17 +13,15 @@
 Initiative ‚ÍA•¡”‚Ìƒ|ƒŠƒV[’è‹`‚ğˆê‚Â‚É‚Ü‚Æ‚ß‚ÄŠÇ—‚·‚é‚½‚ß‚Ìd‘g‚İ‚Å‚ ‚éB¡‰ñ‚ÍAƒŠƒ\[ƒX‚Ìƒ^ƒOİ’è‚ÉŠÖ‚·‚é 2 ‚Â‚Ìƒ|ƒŠƒV[‚ğ‚Ü‚Æ‚ß‚éB
 
 ## 3. è‡
-
 ### 3-1. Azure Policy ‰æ–Ê‚ÖˆÚ“®
 1. Azure ƒ|[ƒ^ƒ‹‚ÉƒTƒCƒ“ƒCƒ“‚·‚éB
-2. ¶ƒƒjƒ…[‚©‚çuPolicyv‚ğƒNƒŠƒbƒN‚·‚éB
+2. ã•”ŒŸõƒo[‚©‚çA"ƒ|ƒŠƒV["‚ğŒŸõ‚µ‚ÄƒNƒŠƒbƒN‚·‚éB
 
 <img src="../images/04-03-policy-initiative-01-policy.png" width="600">
 
 ### 3-2. Initiativeiƒ|ƒŠƒV[ ƒZƒbƒgj‚Ìì¬ŠJn
-1. ¶ƒƒjƒ…[‚©‚çuì¬v‚ğ‘I‘ğ‚·‚éB
-2. u’è‹`v‚ğƒNƒŠƒbƒN‚·‚éB
-3. ã•”‚Ìuƒ|ƒŠƒV[ ƒZƒbƒg’è‹`v‚ğƒNƒŠƒbƒN‚·‚éB
+1. ¶ƒƒjƒ…[‚©‚ç ì¬ ¨ ’è‹` ‚ğƒNƒŠƒbƒN‚·‚éB
+2. {ƒCƒjƒVƒAƒeƒBƒu’è‹`‚ğƒNƒŠƒbƒN‚·‚éB
 
 <img src="../images/04-03-policy-initiative-02-create.png" width="600">
 
@@ -34,17 +31,22 @@ Initiative ‚ÍA•¡”‚Ìƒ|ƒŠƒV[’è‹`‚ğˆê‚Â‚É‚Ü‚Æ‚ß‚ÄŠÇ—‚·‚é‚½‚ß‚Ìd‘g‚İ‚Å‚ ‚éB¡‰
 3. u–¼‘Ov‚É `init-demo-01` ‚ğ“ü—Í‚·‚éB
 4. uà–¾v‚ÉˆÈ‰º‚ğ“ü—Í‚·‚éB
    `ƒŠƒ\[ƒX‚Ìƒ^ƒOİ’è‚ğŠÇ—‚·‚é‚½‚ß‚Ìƒ|ƒŠƒV[ ƒZƒbƒg`
-5. uƒJƒeƒSƒŠv‚ğ‘I‘ğ‚·‚éB
+5. uƒJƒeƒSƒŠv‚Í "V‹Kì¬" ‚ğ‘I‘ğ
+
+"Tags" "Governance"
+
+
 6. uŸ‚Öv‚ğƒNƒŠƒbƒN‚·‚éB
 
 <img src="../images/04-03-policy-initiative-03-basics.png" width="600">
 
 ### 3-4. ƒ|ƒŠƒV[‚Ì’Ç‰Á
-1. uƒ|ƒŠƒV[‚Ì’Ç‰Áv‚ğƒNƒŠƒbƒN‚·‚éB
-2. ˆê——‚©‚ç `Require a tag on resources` ‚ğ‘I‘ğ‚·‚éB
-3. u’Ç‰Áv‚ğƒNƒŠƒbƒN‚·‚éB
-4. Ä“xuƒ|ƒŠƒV[‚Ì’Ç‰Áv‚ğƒNƒŠƒbƒN‚·‚éB
-5. ˆê——‚©‚ç `Require a tag and its value on resources` ‚ğ‘I‘ğ‚·‚éB
+1. ƒ|ƒŠƒV[ƒ^ƒO‚ğƒNƒŠƒbƒN
+2. uƒ|ƒŠƒV[’è‹`‚Ì’Ç‰Áv‚ğƒNƒŠƒbƒN‚·‚éB
+3. ˆê——‚©‚ç `Require a tag on resources` ‚ğ‘I‘ğ‚·‚éB
+4. u’Ç‰Áv‚ğƒNƒŠƒbƒN‚·‚éB
+5. Ä“xuƒ|ƒŠƒV[‚Ì’Ç‰Áv‚ğƒNƒŠƒbƒN‚·‚éB
+6. ˆê——‚©‚ç `Require a tag and its value on resources` ‚ğ‘I‘ğ‚·‚éB
 6. u’Ç‰Áv‚ğƒNƒŠƒbƒN‚·‚éB
 
 <img src="../images/04-03-policy-initiative-04-add-policy.png" width="600">
@@ -56,32 +58,17 @@ Initiative ‚ÍA•¡”‚Ìƒ|ƒŠƒV[’è‹`‚ğˆê‚Â‚É‚Ü‚Æ‚ß‚ÄŠÇ—‚·‚é‚½‚ß‚Ìd‘g‚İ‚Å‚ ‚éB¡‰
 ### 3-5. ƒpƒ‰ƒ[ƒ^[İ’è
 ’Ç‰Á‚µ‚½ƒ|ƒŠƒV[‚Éƒpƒ‰ƒ[ƒ^[‚ª‚ ‚éê‡‚ÍAƒ|ƒŠƒV[‚²‚Æ‚É•K—v‚È’l‚ğİ’è‚·‚éB¡‰ñ‚ÍAƒ^ƒO–¼‚ğ `Environment`Aƒ^ƒO’l‚ğ `PolicyTest` ‚Æ‚·‚éB
 
-1. uƒ|ƒŠƒV[ ƒpƒ‰ƒ[ƒ^[v‚ğƒNƒŠƒbƒN‚·‚éB
-2. `Require a tag on resources` ‚Ìƒ^ƒO–¼‚É `Environment` ‚ğ“ü—Í‚·‚éB
-3. `Require a tag and its value on resources` ‚Ìƒ^ƒO–¼‚É `Environment` ‚ğ“ü—Í‚·‚éB
+1. uƒ|ƒŠƒV[ ƒpƒ‰ƒ[ƒ^[vƒ^ƒu‚ğƒNƒŠƒbƒN‚·‚éB
+2. `Require a tag on resources` ‚Ì’l‚Éƒ^ƒO–¼ `Environment` ‚ğ“ü—Í‚·‚éB
+3. `Require a tag and its value on resources` ‚Ì’l‚Éƒ^ƒO–¼ `Environment` ‚ğ“ü—Í‚·‚éB
 4. ƒ^ƒO‚Ì’l‚É `PolicyTest` ‚ğ“ü—Í‚·‚éB
 5. uŸ‚Öv‚ğƒNƒŠƒbƒN‚·‚éB
+6. uƒŒƒrƒ…[‚Æì¬v¨uì¬v‚ğƒNƒŠƒbƒN‚·‚éB
 
 <img src="../images/04-03-policy-initiative-06-parameters.png" width="600">
 
-### 3-6. ƒOƒ‹[ƒv‚Ìİ’è
-1. uƒOƒ‹[ƒvv‚ğƒNƒŠƒbƒN‚·‚éB
-2. ¡‰ñ‚ÍƒOƒ‹[ƒv•ª‚¯‚ğs‚í‚È‚¢‚½‚ßA‚»‚Ì‚Ü‚ÜuŸ‚Öv‚ğƒNƒŠƒbƒN‚·‚éB
-
-<img src="../images/04-03-policy-initiative-07-groups.png" width="600">
-
-### 3-7. Šm”F‚Æì¬
-1. uƒŒƒrƒ…[‚Æì¬v‚ğƒNƒŠƒbƒN‚·‚éB
-2. u’è‹`‚ÌêŠv‚ª `Azure subscription 1` ‚É‚È‚Á‚Ä‚¢‚é‚±‚Æ‚ğŠm”F‚·‚éB
-3. u–¼‘Ov‚ª `init-demo-01` ‚É‚È‚Á‚Ä‚¢‚é‚±‚Æ‚ğŠm”F‚·‚éB
-4. ’Ç‰Á‚µ‚½ƒ|ƒŠƒV[‚ªˆê——‚É•\¦‚³‚ê‚Ä‚¢‚é‚±‚Æ‚ğŠm”F‚·‚éB
-5. ƒpƒ‰ƒ[ƒ^[‚É `Environment` ‚Æ `PolicyTest` ‚ªİ’è‚³‚ê‚Ä‚¢‚é‚±‚Æ‚ğŠm”F‚·‚éB
-6. uì¬v‚ğƒNƒŠƒbƒN‚·‚éB
-
-<img src="../images/04-03-policy-initiative-08-review.png" width="600">
-
 ### 3-8. ì¬Œ‹‰Ê‚ÌŠm”F
-1. ì¬‚ªŠ®—¹‚µ‚½‚çu’è‹`v‚ğƒNƒŠƒbƒN‚·‚éB
+1. ¶ƒƒjƒ…[‚©‚ç ì¬ ¨ ’è‹` ‚ğƒNƒŠƒbƒN‚·‚éB
 2. ’è‹`ˆê——‚©‚ç `init-demo-01` ‚ğŒŸõ‚·‚éB
 3. `init-demo-01` ‚ªˆê——‚É•\¦‚³‚ê‚Ä‚¢‚é‚±‚Æ‚ğŠm”F‚·‚éB
 4. `init-demo-01` ‚ğƒNƒŠƒbƒN‚·‚éB
