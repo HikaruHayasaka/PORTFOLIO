@@ -1,4 +1,4 @@
-# Non-compliant リソースの特定・是正
+# Azure Policy：Non-compliant リソースの特定・是正
 ## 1. 目的
 Azure Policy のコンプライアンス評価で非対応と判定された既存リソースを特定し、修復タスクを使用して是正する手順を理解する。
 
