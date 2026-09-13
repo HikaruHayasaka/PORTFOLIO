@@ -1,87 +1,87 @@
-# KQL �N�G���i��{�j
-## 1. �ړI
-Log Analytics ���[�N�X�y�[�X�� Kusto Query Language�iKQL�j�̊�{�\���𗝉����A���O�f�[�^�������E���o�ł���悤�ɂ���B
+# KQL クエリ（基本）
+## 1. 目的
+Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構文を理解し、ログデータを検索・抽出できるようにする。
 
-## 2. �݌v
-- �g�p�T�[�r�X�FLog Analytics ���[�N�X�y�[�X
-- �g�p�@�\�F���O�iLog�j�N�G��
-- �w�K�͈́F�����A�i�荞�݁A�񒊏o�A���ёւ�
+## 2. 設計
+- 使用サービス：Log Analytics ワークスペース
+- 使用機能：ログ（Log）クエリ
+- 学習範囲：検索、絞り込み、列抽出、並び替え
 
-## 3. �菇�iGUI�j
-### 3-1. ���O���� �X�g���[�W�A�J�E���g�f�f�ݒ�
-1. Azure �|�[�^���ɃT�C���C������B
-2. �����j���[ �� �X�g���[�W�A�J�E���g �� �Ώۂ̃X�g���[�W�A�J�E���g��I���i��F`saalertdemo01`�j
-3. �����j���[ �� **�Ď�** �� **�f�f�ݒ�**
-4. **blob** ��I��
-5. **�f�f�ݒ��ǉ�** ���N���b�N
-6. �f�f�ݒ�̖��O�Flaw-demo-01
-7. �ȉ��̍��ڂɃ`�F�b�N������
+## 3. 手順（GUI）
+### 3-1. 事前準備 ストレージアカウント診断設定
+1. Azure ポータルにサインインする。
+2. 左メニュー → ストレージアカウント → 対象のストレージアカウントを選択（例：`saalertdemo01`）
+3. 左メニュー → **監視** → **診断設定**
+4. **blob** を選択
+5. **診断設定を追加** をクリック
+6. 診断設定の名前：law-demo-01
+7. 以下の項目にチェックを入れる
 - **Storage Read**  
 - **Storage Write**  
 - **Storage Delete**
-- **Log Analytics ���[�N�X�y�[�X�ւ̑��M**
-8. �ۑ����N���b�N
+- **Log Analytics ワークスペースへの送信**
+8. 保存をクリック
 
 <img src="../images/03-04-kql-basic-01-diagnostic-setting.png" width="300">
 
-### 3-2. ���O���� ���O�𔭐�������
-1. �����j���[ �� �X�g���[�W�A�J�E���g �� �Ώۂ̃X�g���[�W�A�J�E���g��I���i��F`saalertdemo01`�j
-2. �����j���[ �� �f�[�^�X�g���[�W �� �R���e�i�[ �� �Ώۂ̃R���e�i�[��I���i��F`container01`�j
-3. �C�ӂ̃t�@�C���ŁA�A�b�v���[�h�A�_�E�����[�h�A�폜���s���B
+### 3-2. 事前準備 ログを発生させる
+1. 左メニュー → ストレージアカウント → 対象のストレージアカウントを選択（例：`saalertdemo01`）
+2. 左メニュー → データストレージ → コンテナー → 対象のコンテナーを選択（例：`container01`）
+3. 任意のファイルで、アップロード、ダウンロード、削除を行う。
 
 <img src="/images/03-04-kql-basic-02-blob-operations.png" width="600">
 
-### 3-3. Log Analytics ���[�N�X�y�[�X�̃��O���J��
-1. Azure �|�[�^���ɃT�C���C������B
-2. �㕔�����E�B���h�E �� **Log Analytics ���[�N�X�y�[�X** ���������đI���B
-3. �Ώۂ̃��[�N�X�y�[�X���J���B
-4. �����j���[ �� **���O** ��I������B
-(�N�G�� �n�u��ʂ��\�������ꍇ�́A�E���?�{�^���ŕ���)
-5. �E��� **�ȈՃ��[�h** ���\�������ꍇ�́A�������O�p���� **KQL���[�h** ��I������B
+### 3-3. Log Analytics ワークスペースのログを開く
+1. Azure ポータルにサインインする。
+2. 上部検索ウィンドウ → **Log Analytics ワークスペース** を検索して選択。
+3. 対象のワークスペースを開く。
+4. 左メニュー → **ログ** を選択する。
+(クエリ ハブ画面が表示される場合は、右上の?ボタンで閉じる)
+5. 右上に **簡易モード** が表示される場合は、下向き三角から **KQLモード** を選択する。
 
 <img src="../images/03-04-kql-basic-03-log-screen.png" width="300">
 
-### 3-4. ��{�N�G���̎��s
+### 3-4. 基本クエリの実行
 ```
-// �e�[�u���̓��e�����ׂĕ\��
+// テーブルの内容をすべて表示
 StorageBlobLogs
 | order by TimeGenerated desc
 ```
 ```
-// �e�[�u���̍s�����m�F
+// テーブルの行数を確認
 StorageBlobLogs
 | count
 ```
 ```
-// �����ōi�荞�݁i�w�肵���X�g���[�W�A�J�E���g�E�R���e�i�̃��O�݂̂�\���j
+// 条件で絞り込み（指定したストレージアカウント・コンテナのログのみを表示）
 StorageBlobLogs
 | where AccountName == "saalertdemo01"
 | where ContainerName == "container01"
 ```
 ```
-// �K�v�ȗ񂾂��𒊏o
+// 必要な列だけを抽出
 StorageBlobLogs
 | project TimeGenerated, OperationName, StatusCode, Uri, CallerIpAddress
 ```
 ```
-// ���ёւ��i�ŐV�̃f�[�^����ɗ���悤�ɕ��ёւ���B�j
+// 並び替え（最新のデータが上に来るように並び替える。）
 StorageBlobLogs
 | order by TimeGenerated desc
 ```
 ```
-// �A�b�v���[�h����݂̂𒊏o
+// アップロード操作のみを抽出
 StorageBlobLogs
 | where OperationName == "PutBlob"
 | order by TimeGenerated desc
 ```
 ```
-// �_�E�����[�h����݂̂𒊏o
+// ダウンロード操作のみを抽出
 StorageBlobLogs
 | where OperationName == "GetBlob"
 | order by TimeGenerated desc
 ```
 ```
-// �폜����݂̂𒊏o
+// 削除操作のみを抽出
 StorageBlobLogs
 | where OperationName == "DeleteBlob"
 | order by TimeGenerated desc
@@ -89,36 +89,36 @@ StorageBlobLogs
 
 <img src="../images/03-04-kql-basic-04-query-result.png" width="600">
 
-### 3-5. �N�G���i���������j�̕ۑ��ƌĂяo��
-1. �N�G���ҏW��ʉE��� **�ۑ�** �� **�N�G���Ƃ��ĕۑ�**�������B
-2. �C�ӂ̖��O����͂��ۑ�����B
-3. �J���Ƃ��́A��ʉE��� **�N�G���n�u** �� �C�ӂ̃N�G����I��
-�i���̕��ɂ���ꍇ�́A��ʂ��X�N���[������j
+### 3-5. クエリ（検索条件）の保存と呼び出し
+1. クエリ編集画面右上の **保存** → **クエリとして保存**を押す。
+2. 任意の名前を入力し保存する。
+3. 開くときは、画面右上の **クエリハブ** → 任意のクエリを選択
+（下の方にある場合は、画面をスクロールする）
 
 <img src="../images/03-04-kql-basic-05-save-query.png" width="300">
 
-### 3-6. �m�F�F����ׂ����ڂƈӖ�
-- TimeGenerated�F���삪���s���ꂽ����
-- OperationName�F���s���ꂽ Blob ����̎��
-- StatusCode�F�����^���s�i200/201=�����A404=�Ȃ��A403=�����s���j
-- Uri�F�Ώ� Blob �̃p�X
-- CallerIpAddress�F��������s�����[���� IP
+### 3-6. 確認：見るべき項目と意味
+- TimeGenerated：操作が実行された日時
+- OperationName：実行された Blob 操作の種類
+- StatusCode：成功／失敗（200/201=成功、404=なし、403=権限不足）
+- Uri：対象 Blob のパス
+- CallerIpAddress：操作を実行した端末の IP
 
-### 3-7. �m�F�FOperationName �̎�ނƈӖ�
-- PutBlob�FBlob �̃A�b�v���[�h
-- GetBlob�FBlob �̃_�E�����[�h
-- DeleteBlob�FBlob �̍폜
-- GetBlobProperties�FBlob �̃v���p�e�B�擾
-- GetBlobMetadata�FBlob �̃��^�f�[�^�擾
-- BlobPreflightRequest�F����O�̎��O�`�F�b�N
-- GetContainerProperties�F�R���e�i���̎擾
-- GetBlobTags�FBlob �^�O�̎擾
+### 3-7. 確認：OperationName の種類と意味
+- PutBlob：Blob のアップロード
+- GetBlob：Blob のダウンロード
+- DeleteBlob：Blob の削除
+- GetBlobProperties：Blob のプロパティ取得
+- GetBlobMetadata：Blob のメタデータ取得
+- BlobPreflightRequest：操作前の事前チェック
+- GetContainerProperties：コンテナ情報の取得
+- GetBlobTags：Blob タグの取得
 
-## 4. ����
-- Log Analytics ���[�N�X�y�[�X�Ŋ�{�I�� KQL �N�G�������s�ł����B
-- �����A�i�荞�݁A�񒊏o�A���ёւ��̊�{�\���𗝉������B
-- �N�G���̕ۑ����@���K�������B
+## 4. 結果
+- Log Analytics ワークスペースで基本的な KQL クエリを実行できた。
+- 検索、絞り込み、列抽出、並び替えの基本構文を理解した。
+- クエリの保存方法を習得した。
 
-## 5. �w��
-- KQL �̓��O���͂ɓ��������\���ł���A�p�C�v�i`|`�j�ŏ������Ȃ��Ă����`���������ł���B
-- ��{�\����g�ݍ��킹�邱�ƂŁA�K�v�ȃ��O���������I�ɒ��o�ł���B
+## 5. 学び
+- KQL はログ分析に特化した構文であり、パイプ（`|`）で処理をつなげていく形式が特徴である。
+- 基本構文を組み合わせることで、必要なログ情報を効率的に抽出できる。

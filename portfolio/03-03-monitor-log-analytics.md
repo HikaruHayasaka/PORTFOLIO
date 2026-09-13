@@ -1,45 +1,45 @@
-# Log Analytics ���[�N�X�y�[�X�쐬
+# Log Analytics ワークスペース作成
 
-## 1. �ړI
-Azure Monitor �̊�ՂƂȂ� **Log Analytics ���[�N�X�y�[�X** ���쐬���A���O���W�̏����𐮂���B
-���݂̃��C�Z���X�iMicrosoft Entra ID Free�j����� **���z�}�V���Ȃ�** �̊��ł��쐬�\�ł��邱�Ƃ��m�F����B
+## 1. 目的
+Azure Monitor の基盤となる **Log Analytics ワークスペース** を作成し、ログ収集の準備を整える。
+現在のライセンス（Microsoft Entra ID Free）および **仮想マシンなし** の環境でも作成可能であることを確認する。
 
-## 2. �݌v
-- ���\�[�X �O���[�v�F`rg-monitor-demo-01`
-- ���[�N�X�y�[�X���F`law-demo-01`
-- ���[�W�����F`Japan East`
+## 2. 設計
+- リソース グループ：`rg-monitor-demo-01`
+- ワークスペース名：`law-demo-01`
+- リージョン：`Japan East`
 
-## 3. �菇�iGUI�j
-### 3-1. ���\�[�X �O���[�v�̍쐬
-1. Azure �|�[�^���փT�C���C������B
-2. �����j���[ �� **���\�[�X �O���[�v**
-3. **�{�쐬** �������B
-4. �ȉ���ݒ肷��F
-   - �T�u�X�N���v�V�����F`Azure subscription 1`
-   - ���\�[�X �O���[�v���F`rg-monitor-demo-01`
-   - ���[�W�����F`(Asia Pacific) Japan East`
-5. **���r���[�ƍ쐬 �� �쐬**
+## 3. 手順（GUI）
+### 3-1. リソース グループの作成
+1. Azure ポータルへサインインする。
+2. 左メニュー → **リソース グループ**
+3. **＋作成** を押す。
+4. 以下を設定する：
+   - サブスクリプション：`Azure subscription 1`
+   - リソース グループ名：`rg-monitor-demo-01`
+   - リージョン：`(Asia Pacific) Japan East`
+5. **レビューと作成 → 作成**
 
 <img src="../images/03-03-log-analytics-01-resource-group.png" width="300">
 
-### 3-2. Log Analytics ���[�N�X�y�[�X�̍쐬
-1. �㕔�����E�B���h�E �� **Log Analytics ���[�N�X�y�[�X**
-2. **�{�쐬** �������B
-3. �ȉ���ݒ肷��F
-   - �T�u�X�N���v�V�����F`Azure subscription 1`
-   - ���\�[�X �O���[�v�F`rg-monitor-demo-01`
-   - ���O�F`law-demo-01`
-   - ���[�W�����F`Japan East`
-4. **���r���[�ƍ쐬 �� �쐬**
+### 3-2. Log Analytics ワークスペースの作成
+1. 上部検索ウィンドウ → **Log Analytics ワークスペース**
+2. **＋作成** を押す。
+3. 以下を設定する：
+   - サブスクリプション：`Azure subscription 1`
+   - リソース グループ：`rg-monitor-demo-01`
+   - 名前：`law-demo-01`
+   - リージョン：`Japan East`
+4. **レビューと作成 → 作成**
 
 <img src="../images/03-03-log-analytics-02-workspace-create.png" width="300">
 
-## 4. ����
-- Log Analytics ���[�N�X�y�[�X���쐬���ꂽ�B
-- ���z�}�V���Ȃ��̊��ł��쐬�\�ł��邱�Ƃ��m�F�����B
-- Azure Monitor �̃��O���W��Ղ��������B
+## 4. 結果
+- Log Analytics ワークスペースが作成された。
+- 仮想マシンなしの環境でも作成可能であることを確認した。
+- Azure Monitor のログ収集基盤が整った。
 
-## 5. �w��
-- Log Analytics ���[�N�X�y�[�X�� Azure Monitor �̃��O��Ղł���A�e�T�[�r�X�̃��O���W��ł���B
-- ���z�}�V�����Ȃ��Ă��쐬�ł��AActivity Log �� Diagnostic Settings �̑��M��Ƃ��ė��p�ł���B
-- ���[�N�X�y�[�X�̓��[�W�����ƃ��\�[�X �O���[�v�̐݌v���d�v�ł���B
+## 5. 学び
+- Log Analytics ワークスペースは Azure Monitor のログ基盤であり、各サービスのログを集約できる。
+- 仮想マシンがなくても作成でき、Activity Log や Diagnostic Settings の送信先として利用できる。
+- ワークスペースはリージョンとリソース グループの設計が重要である。

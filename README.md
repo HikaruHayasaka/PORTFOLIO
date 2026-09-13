@@ -1,72 +1,72 @@
-# Azure‹ZpPR
+# AzureæŠ€è¡“PR
 
-## –Úw‚·ƒLƒƒƒŠƒA
-- ƒNƒ‰ƒEƒh‚Ì•Ûç‰^—p—Ìˆæ‚ÅƒLƒƒƒŠƒA‚ğŠJn‚·‚éB
-- IDŠÇ—AƒZƒLƒ…ƒŠƒeƒBAƒKƒoƒiƒ“ƒX—Ìˆæ‚ÖŠg‘å‚·‚éB
+## ç›®æŒ‡ã™ã‚­ãƒ£ãƒªã‚¢
+- ã‚¯ãƒ©ã‚¦ãƒ‰ã®ä¿å®ˆé‹ç”¨é ˜åŸŸã§ã‚­ãƒ£ãƒªã‚¢ã‚’é–‹å§‹ã™ã‚‹ã€‚
+- IDç®¡ç†ã€ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ã€ã‚¬ãƒãƒŠãƒ³ã‚¹é ˜åŸŸã¸æ‹¡å¤§ã™ã‚‹ã€‚
  
-## Œo—ğ
-- ƒ\ƒtƒg‚ÌƒIƒyƒŒ[ƒVƒ‡ƒ“ƒ}ƒjƒ…ƒAƒ‹(”•Sƒy[ƒW)‚ğì¬‚µA”»‚è‚â‚·‚¢‘—¿ì¬‚Ì•û–@‚ğK“¾‚µ‚½B
-- ƒ`[ƒ€ƒŠ[ƒ_[‚ğ‚U”NŠÔŒoŒ±‚µAl‚Æ‚ÌÚ‚µ•ûAî•ñ‹¤—L‚Ìd•û‚ğK“¾‚µ‚½B
-- ‚±‚ê‚ç‚ÌŒoŒ±‚ğAƒhƒLƒ…ƒƒ“ƒgì¬‚¨‚æ‚ÑAIT‹Æ–±‚Å‚Ìƒ`[ƒ€ƒ[ƒN‚ÉŠˆ‚©‚·B
+## çµŒæ­´
+- ã‚½ãƒ•ãƒˆã®ã‚ªãƒšãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ãƒãƒ‹ãƒ¥ã‚¢ãƒ«(æ•°ç™¾ãƒšãƒ¼ã‚¸)ã‚’ä½œæˆã—ã€åˆ¤ã‚Šã‚„ã™ã„è³‡æ–™ä½œæˆã®æ–¹æ³•ã‚’ç¿’å¾—ã—ãŸã€‚
+- ãƒãƒ¼ãƒ ãƒªãƒ¼ãƒ€ãƒ¼ã‚’ï¼–å¹´é–“çµŒé¨“ã—ã€äººã¨ã®æ¥ã—æ–¹ã€æƒ…å ±å…±æœ‰ã®ä»•æ–¹ã‚’ç¿’å¾—ã—ãŸã€‚
+- ã“ã‚Œã‚‰ã®çµŒé¨“ã‚’ã€ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆä½œæˆãŠã‚ˆã³ã€ITæ¥­å‹™ã§ã®ãƒãƒ¼ãƒ ãƒ¯ãƒ¼ã‚¯ã«æ´»ã‹ã™ã€‚
 
-## ‘Ši
-- Šî–{î•ñ‹ZpÒ / î•ñƒZƒLƒ…ƒŠƒeƒBƒ}ƒlƒWƒƒ“ƒg
+## è³‡æ ¼
+- åŸºæœ¬æƒ…å ±æŠ€è¡“è€… / æƒ…å ±ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ãƒãƒã‚¸ãƒ¡ãƒ³ãƒˆ
 - AZ-900 (Azure Fundamentals)
 - DP-900 (Azure Data Fundamentals)
 - AI-900 (Azure AI Fundamentals)
 - PL-900 (Power Platform Fundamentals)
-- iŠwK’†jAZ-104 (Azure Administrator)
+- ï¼ˆå­¦ç¿’ä¸­ï¼‰AZ-104 (Azure Administrator)
 
-##  ŠwKƒƒO
-### Entra IDiIDŠÇ—j
-- [ƒ†[ƒU[ŠÇ—EƒOƒ‹[ƒvŠÇ—Eƒ[ƒ‹ŠÇ—](portfolio/01-01-entra-id.md)
-- [MFAi”FØ•û–@ƒ|ƒŠƒV[j](portfolio/01-02-mfa-authentication-policy.md)
-- [ğŒ•t‚«ƒAƒNƒZƒXiMFA —v‹j] •Û—¯iƒ‰ƒCƒZƒ“ƒXj
-- [SSPRiSelf-Service Password Resetj](portfolio/01-04-sspr.md)
-- [ŠÄ¸ƒƒO](portfolio/01-05-entra-audit-log.md)
+##  å­¦ç¿’ãƒ­ã‚°
+### Entra IDï¼ˆIDç®¡ç†ï¼‰
+- [ãƒ¦ãƒ¼ã‚¶ãƒ¼ç®¡ç†ãƒ»ã‚°ãƒ«ãƒ¼ãƒ—ç®¡ç†ãƒ»ãƒ­ãƒ¼ãƒ«ç®¡ç†](portfolio/01-01-entra-id.md)
+- [MFAï¼ˆèªè¨¼æ–¹æ³•ãƒãƒªã‚·ãƒ¼ï¼‰](portfolio/01-02-mfa-authentication-policy.md)
+- [æ¡ä»¶ä»˜ãã‚¢ã‚¯ã‚»ã‚¹ï¼ˆMFA è¦æ±‚ï¼‰] ä¿ç•™ï¼ˆãƒ©ã‚¤ã‚»ãƒ³ã‚¹ï¼‰
+- [SSPRï¼ˆSelf-Service Password Resetï¼‰](portfolio/01-04-sspr.md)
+- [ç›£æŸ»ãƒ­ã‚°](portfolio/01-05-entra-audit-log.md)
 
-### Šî”ÕiVM / Storage / Virtual Networkj
-- [VM ì¬iWindows/Linuxj] •Û—¯i—L‰Û‹àj
-- [NSG / ƒpƒuƒŠƒbƒNIP] •Û—¯i—L‰Û‹àj
-- [Storage ƒAƒJƒEƒ“ƒgiBlobj](portfolio/02-03-storage-blob.md)
-- [VNet / ƒTƒuƒlƒbƒg\¬](portfolio/02-04-vnet-subnet.md)
+### åŸºç›¤ï¼ˆVM / Storage / Virtual Networkï¼‰
+- [VM ä½œæˆï¼ˆWindows/Linuxï¼‰] ä¿ç•™ï¼ˆæœ‰å„Ÿèª²é‡‘ï¼‰
+- [NSG / ãƒ‘ãƒ–ãƒªãƒƒã‚¯IP] ä¿ç•™ï¼ˆæœ‰å„Ÿèª²é‡‘ï¼‰
+- [Storage ã‚¢ã‚«ã‚¦ãƒ³ãƒˆï¼ˆBlobï¼‰](portfolio/02-03-storage-blob.md)
+- [VNet / ã‚µãƒ–ãƒãƒƒãƒˆæ§‹æˆ](portfolio/02-04-vnet-subnet.md)
 
-### ŠÄ‹iAzure Monitorj
-- [ƒƒgƒŠƒbƒNŠÄ‹iVM / Storage / Networkj](portfolio/03-01-monitor-metrics.md)
-- [ƒAƒ‰[ƒgƒ‹[ƒ‹ì¬](portfolio/03-02-monitor-alert-rule.md)
-- [Log Analytics ƒ[ƒNƒXƒy[ƒX](portfolio/03-03-monitor-log-analytics.md)
-- [KQL ƒNƒGƒŠiŠî–{j](portfolio/03-04-monitor-kql-basic.md)
+### ç›£è¦–ï¼ˆAzure Monitorï¼‰
+- [ãƒ¡ãƒˆãƒªãƒƒã‚¯ç›£è¦–ï¼ˆVM / Storage / Networkï¼‰](portfolio/03-01-monitor-metrics.md)
+- [ã‚¢ãƒ©ãƒ¼ãƒˆãƒ«ãƒ¼ãƒ«ä½œæˆ](portfolio/03-02-monitor-alert-rule.md)
+- [Log Analytics ãƒ¯ãƒ¼ã‚¯ã‚¹ãƒšãƒ¼ã‚¹](portfolio/03-03-monitor-log-analytics.md)
+- [KQL ã‚¯ã‚¨ãƒªï¼ˆåŸºæœ¬ï¼‰](portfolio/03-04-monitor-kql-basic.md)
 
-### ƒKƒoƒiƒ“ƒXiAzure Policyj
-- [Policy Š„‚è“–‚Ä](portfolio/04-01-policy-assignment.md)
-- [Compliance ‚ÌŠm”F](portfolio/04-02-policy-compliance.md)
-- [Initiative ì¬](portfolio/04-03-policy-initiative.md)
-- [Non-compliant ƒŠƒ\[ƒX‚Ì“Á’èE¥³](portfolio/04-04-policy-remediation.md)
+### ã‚¬ãƒãƒŠãƒ³ã‚¹ï¼ˆAzure Policyï¼‰
+- [Policy å‰²ã‚Šå½“ã¦](portfolio/04-01-policy-assignment.md)
+- [Compliance ã®ç¢ºèª](portfolio/04-02-policy-compliance.md)
+- [Initiative ä½œæˆ](portfolio/04-03-policy-initiative.md)
+- [Non-compliant ãƒªã‚½ãƒ¼ã‚¹ã®ç‰¹å®šãƒ»æ˜¯æ­£](portfolio/04-04-policy-remediation.md)
 
-#### ‚±‚Ìƒy[ƒW‚ÍAGitHubAVSCodeAMarkdown‚ğg—p‚µ‚Äì¬‚µ‚Ü‚µ‚½B
+#### ã“ã®ãƒšãƒ¼ã‚¸ã¯ã€GitHubã€VSCodeã€Markdownã‚’ä½¿ç”¨ã—ã¦ä½œæˆã—ã¾ã—ãŸã€‚
 ------
-### ˆÈ‰ºì¬’†
+### ä»¥ä¸‹ä½œæˆä¸­
 
-### ƒZƒLƒ…ƒŠƒeƒBiDefender for Cloudj
-- [Secure Score ‚ÌŠm”F]<!--(portfolio/05-01-defender-secure-score.md)-->
-- [„§–€‚Ì“K—p]<!--(portfolio/05-02-defender-recommendations.md)-->
-- [ƒAƒ‰[ƒgŠm”F] •Û—¯i—L‰Û‹àj<!--(portfolio/05-03-defender-alerts.md)-->
+### ã‚»ã‚­ãƒ¥ãƒªãƒ†ã‚£ï¼ˆDefender for Cloudï¼‰
+- [Secure Score ã®ç¢ºèª]<!--(portfolio/05-01-defender-secure-score.md)-->
+- [æ¨å¥¨äº‹é …ã®é©ç”¨]<!--(portfolio/05-02-defender-recommendations.md)-->
+- [ã‚¢ãƒ©ãƒ¼ãƒˆç¢ºèª] ä¿ç•™ï¼ˆæœ‰å„Ÿèª²é‡‘ï¼‰<!--(portfolio/05-03-defender-alerts.md)-->
 
-### ƒoƒbƒNƒAƒbƒv / ƒŠƒJƒoƒŠiAzure Backup)
-- [Recovery Services ƒRƒ“ƒeƒi[ì¬]
-- [VM ƒoƒbƒNƒAƒbƒviƒ|ƒŠƒV[İ’èj]—L‰Û‹àŒã‚Éì¬—\’è
-- [VM ‚Ì•œŒ³iƒtƒ@ƒCƒ‹‰ñ•œ / VM‘S‘Ìj]—L‰Û‹àŒã‚Éì¬—\’è
-- [Blob ‚Ìƒ\ƒtƒgƒfƒŠ[ƒg / ƒXƒiƒbƒvƒVƒ‡ƒbƒg]
-- [Storage ƒAƒJƒEƒ“ƒg‚Ìç’·«iLRS / GRSj‚Ì—‰ğ‚Æİ’è]
+### ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ— / ãƒªã‚«ãƒãƒªï¼ˆAzure Backup)
+- [Recovery Services ã‚³ãƒ³ãƒ†ãƒŠãƒ¼ä½œæˆ]
+- [VM ãƒãƒƒã‚¯ã‚¢ãƒƒãƒ—ï¼ˆãƒãƒªã‚·ãƒ¼è¨­å®šï¼‰]æœ‰å„Ÿèª²é‡‘å¾Œã«ä½œæˆäºˆå®š
+- [VM ã®å¾©å…ƒï¼ˆãƒ•ã‚¡ã‚¤ãƒ«å›å¾© / VMå…¨ä½“ï¼‰]æœ‰å„Ÿèª²é‡‘å¾Œã«ä½œæˆäºˆå®š
+- [Blob ã®ã‚½ãƒ•ãƒˆãƒ‡ãƒªãƒ¼ãƒˆ / ã‚¹ãƒŠãƒƒãƒ—ã‚·ãƒ§ãƒƒãƒˆ]
+- [Storage ã‚¢ã‚«ã‚¦ãƒ³ãƒˆã®å†—é•·æ€§ï¼ˆLRS / GRSï¼‰ã®ç†è§£ã¨è¨­å®š]
 
-### ƒRƒXƒgŠÇ—iCost Managementj
-- [ƒRƒXƒg•ªÍiCost Analysisj‚Å‚ÌƒŠƒ\[ƒX•ÊƒRƒXƒgŠm”F]
-- [š—\ZiBudgetjì¬‚ÆƒRƒXƒgƒAƒ‰[ƒgİ’è]
-- [–³—¿˜gE12‚©Œ–³—¿ƒT[ƒrƒX‚Ì®—‚ÆŠˆ—p•ûj]
-- [ƒŠƒ\[ƒX‚Ìƒ^ƒO•t‚¯‚ÆƒRƒXƒgWŒv]
-- [•s—vƒŠƒ\[ƒX‚Ì’I‰µ‚µEíœè‡]
+### ã‚³ã‚¹ãƒˆç®¡ç†ï¼ˆCost Managementï¼‰
+- [ã‚³ã‚¹ãƒˆåˆ†æï¼ˆCost Analysisï¼‰ã§ã®ãƒªã‚½ãƒ¼ã‚¹åˆ¥ã‚³ã‚¹ãƒˆç¢ºèª]
+- [â˜…äºˆç®—ï¼ˆBudgetï¼‰ä½œæˆã¨ã‚³ã‚¹ãƒˆã‚¢ãƒ©ãƒ¼ãƒˆè¨­å®š]
+- [ç„¡æ–™æ ãƒ»12ã‹æœˆç„¡æ–™ã‚µãƒ¼ãƒ“ã‚¹ã®æ•´ç†ã¨æ´»ç”¨æ–¹é‡]
+- [ãƒªã‚½ãƒ¼ã‚¹ã®ã‚¿ã‚°ä»˜ã‘ã¨ã‚³ã‚¹ãƒˆé›†è¨ˆ]
+- [ä¸è¦ãƒªã‚½ãƒ¼ã‚¹ã®æ£šå¸ã—ãƒ»å‰Šé™¤æ‰‹é †]
 
-### À–±ƒVƒiƒŠƒIiIncident-Scenarioj
-- [VM CPU‚“«]
-- [ƒTƒCƒ“ƒCƒ“¸”s‹}‘iUŒ‚j]
-- [Storage 403ƒGƒ‰[]
+### å®Ÿå‹™ã‚·ãƒŠãƒªã‚ªï¼ˆIncident-Scenarioï¼‰
+- [VM CPUé«˜é¨°]
+- [ã‚µã‚¤ãƒ³ã‚¤ãƒ³å¤±æ•—æ€¥å¢—ï¼ˆæ”»æ’ƒï¼‰]
+- [Storage 403ã‚¨ãƒ©ãƒ¼]
