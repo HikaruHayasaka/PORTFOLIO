@@ -20,7 +20,7 @@ NSG（Network Security Group）とパブリック IP を用いて外部公開で
 ![NSG / Public IP 構成概要](images/nsg-publicip-overview.png)
 
 ### 2.3 環境情報（Subscription / Resource Group / Region）
-- サブスクリプション：Azure-Subscription-Demo（※環境に合わせて変更）
+- サブスクリプション：`Azure-Subscription-Demo`（※環境に合わせて変更）
 - リソースグループ：`rg-vm-demo-01`
 - 名前：`vm-win-01`
 - リージョン：Japan East
@@ -42,9 +42,9 @@ NSG（Network Security Group）とパブリック IP を用いて外部公開で
 ### 3.1 NSG の作成
 1. 「仮想ネットワーク」→「ネットワーク セキュリティ グループ」
 2. 「+ 作成」から NSG を新規作成
-- サブスクリプション：Azure-Subscription 1
-- リソースグループ：rg-vm-demo-01
-- 名前：vm-win-01
+- サブスクリプション：`Azure-Subscription 1`
+- リソースグループ：`rg-vm-demo-01`
+- 名前：`vm-win-01`
 - リージョン：Japan East
 3. 「レビューと作成」→「作成」
 
@@ -64,7 +64,7 @@ NSG（Network Security Group）とパブリック IP を用いて外部公開で
 - プロトコル：TCP  
 - アクション：許可  
 - 優先度：100  
-- 名前：Allow-HTTP-80  
+- 名前：`Allow-HTTP-80`  
 - 説明：任意（空欄で可）
 
 `images/nsg-rule-http80.png`  
@@ -87,8 +87,8 @@ NSG（Network Security Group）とパブリック IP を用いて外部公開で
 1. 「NSG」→「対象の仮想ネットワーク」を選択
 2. 左メニュー → 設定 → サブネット
 3. ＋関連付け
-- 仮想ネットワーク：vnet-demo-01(rg-vm-demo-01)
-- サブネット：defalt
+- 仮想ネットワーク：`vnet-demo-01(rg-vm-demo-01)`
+- サブネット：`default`
 4. OKをクリック
 
 `images/nsg-associate.png`  

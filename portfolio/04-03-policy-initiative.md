@@ -18,7 +18,7 @@
 <img src="../images/04-03-policy-initiative-01-policy.png" width="600">
 
 ### 3-2. Initiative（ポリシー セット）の作成開始
-1. 左メニューから 作成 → 定義 をクリック。
+1. 左メニュー → 作成 → 定義 をクリック。
 2. ＋イニシアティブ定義をクリック。
 
 <img src="../images/04-03-policy-initiative-02-create.png" width="600">

@@ -14,7 +14,7 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構
 3. 左メニュー →「監視」→「診断設定」
 4. `blob` を選択
 5. 「診断設定を追加」をクリック
-6. 診断設定の名前：law-demo-01
+6. 診断設定の名前：`law-demo-01`
 7. 以下の項目にチェックを入れる
 - 「Storage Read」  
 - 「Storage Write」  

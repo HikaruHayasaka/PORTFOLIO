@@ -9,13 +9,13 @@ Entra ID 上で以下の 4 要素を一連の流れとして理解する。
 
 ## 2. 設計
 - ユーザー  
-  - Test.User-01
+  - `Test.User-01`
 - グループ  
-  - TestGroup-01
+  - `TestGroup-01`
 - 紐づけ  
-  - Test.User-01 → TestGroup-01
+  - `Test.User-01` → `TestGroup-01`
 - ロール
-  - Test.User-01 → User Administrator
+  - `Test.User-01` → `User Administrator`
 
 ## 3. 手順
 ### 3-1. ユーザーの作成
@@ -43,7 +43,7 @@ Entra ID 上で以下の 4 要素を一連の流れとして理解する。
 1. 「ユーザー」→「対象のユーザー」を選択  
 2. 「割り当てられたロール」を選択  
 3. 「割り当ての追加」を選択  
-4. 付与するロール（User Administrator）を選択し追加
+4. 付与するロール（`User Administrator`）を選択し追加
 
 <img src="../images/01-01-entra-id-04-assigned-roles.png" width="600">
 

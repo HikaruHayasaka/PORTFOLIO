@@ -6,7 +6,7 @@ Entra ID の新しい UI では「セキュリティの既定値（Security defa
 安全な認証基盤を構築することを目的とする。
 
 ## 2. 設計
-- 対象ユーザー：Test.User-01  
+- 対象ユーザー：`Test.User-01`  
 - MFA 強制方式：認証方法ポリシー（新 UI 標準）  
 - 認証方法の構成：  
   - Microsoft Authenticator：はい（必須）  
@@ -32,7 +32,7 @@ Entra ID の新しい UI では「セキュリティの既定値（Security defa
 
 ### ユーザーの認証方法を確認する  
 1. 左メニュー →「ユーザー」  
-2. Test.User-01 を選択  
+2. `Test.User-01` を選択  
 3. 上部タブ →「認証方法」  
 4. 「使用できる方法はありません」と表示される  
    → これはユーザーがまだ MFA を登録していない正常な状態  
@@ -43,7 +43,7 @@ Entra ID の新しい UI では「セキュリティの既定値（Security defa
 ## 4. 結果
 - Microsoft Authenticator を必須に設定。
   このテナントではパスワードだけではログインできません。
-  Test.User-01 は次回ログイン時に Microsoft Authenticator の登録を求められ、登録が完了するまでログインはできません。
+  `Test.User-01` は次回ログイン時に Microsoft Authenticator の登録を求められ、登録が完了するまでログインはできません。
 - 弱い認証方法（SMS / 電話）を無効化し、セキュリティを向上。
 - パスキー（FIDO2）によりパスワードレス運用にも対応。
 

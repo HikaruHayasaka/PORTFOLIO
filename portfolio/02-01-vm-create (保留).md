@@ -7,9 +7,9 @@ Azure Portal（日本語版）を使用して、仮想マシン（VM）を最新
 - リソースグループ：`rg-vm-demo-01`
 - リージョン：Japan East
 - VM 名：`vm-win-01`
-- OS イメージ：Windows Server 2022 Datacenter: Azure Edition
-- サイズ：Standard_B2s
-- 管理者アカウント：azureuser
+- OS イメージ：`Windows Server 2022 Datacenter: Azure Edition`
+- サイズ：`Standard_B2s`
+- 管理者アカウント：`azureuser`
 - ネットワーク構成
   - VNet：`vnet-vm-demo-01`
   - Subnet：`subnet-vm-01`
@@ -39,10 +39,10 @@ Azure Portal（日本語版）を使用して、仮想マシン（VM）を最新
    - リソースグループ：`rg-vm-demo-01`  
    - 仮想マシン名：`vm-ubuntu-01`  
    - リージョン：(Asia Pacific) Japan East  
-   - イメージ：Ubuntu Server 22.04 LTS  
-   - サイズ：Standard_B1s（無料枠）
+   - イメージ：`Ubuntu Server 22.04 LTS`  
+   - サイズ：`Standard_B1s`（無料枠）
 4. 管理者アカウント  
-   - ユーザー名：azureuser  
+   - ユーザー名：`azureuser`  
    - パスワード：複雑な 12 文字以上  
 5. 受信ポート：RDP(3389)
 
@@ -79,7 +79,7 @@ Azure Portal（日本語版）を使用して、仮想マシン（VM）を最新
 1. VM 概要 →「接続」→「RDP」  
 2. RDP ファイルをダウンロード  
 3. ローカル PC で開く  
-4. azureuser でサインイン
+4. `azureuser` でサインイン
 
 <img src="../images/02-01-azure-vm-07-rdp.png" width="600">
 
