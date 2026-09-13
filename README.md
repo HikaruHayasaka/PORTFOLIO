@@ -21,13 +21,13 @@
 ### Entra ID（ID管理）
 - [ユーザー管理・グループ管理・ロール管理](portfolio/01-01-entra-id.md)
 - [MFA（認証方法ポリシー）](portfolio/01-02-mfa-authentication-policy.md)
-- [条件付きアクセス（MFA 要求）] 保留（ライセンス）
+- [条件付きアクセス（MFA 要求）] 保留
 - [SSPR（Self-Service Password Reset）](portfolio/01-04-sspr.md)
 - [監査ログ](portfolio/01-05-entra-audit-log.md)
 
 ### 基盤（VM / Storage / Virtual Network）
-- [VM 作成（Windows/Linux）] 保留（有償課金）
-- [NSG / パブリックIP] 保留（有償課金）
+- [VM 作成（Windows/Linux）] 保留
+- [NSG / パブリックIP] 保留
 - [Storage アカウント（Blob）](portfolio/02-03-storage-blob.md)
 - [VNet / サブネット構成](portfolio/02-04-vnet-subnet.md)
 
@@ -50,7 +50,7 @@
 ### セキュリティ（Defender for Cloud）
 - [Secure Score の確認]<!--(portfolio/05-01-defender-secure-score.md)-->
 - [推奨事項の適用]<!--(portfolio/05-02-defender-recommendations.md)-->
-- [アラート確認] 保留（有償課金）<!--(portfolio/05-03-defender-alerts.md)-->
+- [アラート確認] 保留<!--(portfolio/05-03-defender-alerts.md)-->
 
 ### バックアップ / リカバリ（Azure Backup)
 - [Recovery Services コンテナー作成]
@@ -61,7 +61,7 @@
 
 ### コスト管理（Cost Management）
 - [コスト分析（Cost Analysis）でのリソース別コスト確認]
-- [★予算（Budget）作成とコストアラート設定]
+- [予算（Budget）作成とコストアラート設定]
 - [無料枠・12か月無料サービスの整理と活用方針]
 - [リソースのタグ付けとコスト集計]
 - [不要リソースの棚卸し・削除手順]
