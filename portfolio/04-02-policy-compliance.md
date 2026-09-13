@@ -14,16 +14,16 @@ Compliance 画面から、リソースが 対応/非対応 のどちらに分類
 ## 3. 手順
 ### 3-1. Azure Portal へアクセス
 1. Azure Portal にサインインする。  
-2. 左メニューから **ポリシー** を選択。
+2. 左メニューから「ポリシー」を選択。
 
 <img src="../images/04-02-policy-compliance-01-overview.png" width="600">
 
 ### 3-2. Compliance の確認
-1. 左メニュー → **Quick Access** → **コンプライアンス** を選択。  
+1. 左メニュー → 「Quick Access」→「コンプライアンス」を選択。  
 2. 割り当て済みの Policy Assignment が一覧で表示される。  
 3. 対象の Policy Assignment をクリック。（例：タグとその値をリソースに追加する）
 4. 画面を下までスクロールし、「コンプライアンスの状態（対応/非対応）」を確認する。
-（既存のリソース **saalertdemo01** にはポリシーが適用されておらず、新規作成した **saalertdemo02** にはポリシーが適用されている）
+（既存のリソース `saalertdemo01` にはポリシーが適用されておらず、新規作成した `saalertdemo02` にはポリシーが適用されている）
 （コンプライアンスの反映には数十分かかります）
 
 <img src="../images/04-02-policy-compliance-02-assignment.png" width="600">
