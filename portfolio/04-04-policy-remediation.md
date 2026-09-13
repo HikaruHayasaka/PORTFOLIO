@@ -20,7 +20,7 @@ Azure Policy のコンプライアンス評価で非対応と判定された既�
 <img src="../images/04-04-policy-remediation-01-overview.png" width="600">
 
 ### 3-2. Modify効果を持つポリシーの割り当ての開始
-1. 左メニューから 作成 → 割り当て をクリック。
+1. 左メニューから「作成」→「割り当て」をクリック。
 2. 上部の ポリシーの割り当て をクリック。
 
 <img src="../images/04-04-policy-remediation-02-assignment-start.png" width="600">
@@ -55,7 +55,7 @@ Azure Policy のコンプライアンス評価で非対応と判定された既�
 <img src="../images/04-04-policy-remediation-05-compliance.png" width="600">
 
 ### 3-6. 修復タスクの作成
-1. 左メニューから 修復 をクリック。
+1. 左メニューから「修復」をクリック。
 2. 修復するポリシー タブで、対象の `Add a tag to resources` をクリック。
 3. 「新しい修復タスクの作成」画面で、対象のリソースの一覧を確認。（表示されていない場合は画面下までスクロールする）
 4. 修復をクリック。
@@ -63,7 +63,7 @@ Azure Policy のコンプライアンス評価で非対応と判定された既�
 <img src="../images/04-04-policy-remediation-06-remediation-task.png" width="600">
 
 ### 3-7. 修復タスクの進捗確認
-1. 修復タスク タブをクリック。
+1. 「修復タスク」タブをクリック。
 2. 作成したタスクをクリック。
 3. 状態が 実行中 から 完了 に変わることを確認。
 4. 対象のリソースの一覧で、各リソースの修復結果を確認。
@@ -72,7 +72,7 @@ Azure Policy のコンプライアンス評価で非対応と判定された既�
 <img src="../images/04-04-policy-remediation-07-progress.png" width="600">
 
 ### 3-8. 是正結果の確認
-1. 左メニューから コンプライアンス をクリック。
+1. 左メニューから「コンプライアンス」をクリック。
 2. 割り当てた `Add a tag to resources` をクリック。
 3. 是正したリソースのコンプライアンスの状態が 対応 に変わっていることを確認。
 （コンプライアンスの反映には数十分かかる場合がある。反映が遅い場合は、Cloud Shellから `az policy state trigger-scan --resource-group "rg-monitor-demo-01"` を実行して評価を更新する）

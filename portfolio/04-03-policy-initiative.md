@@ -18,7 +18,7 @@
 <img src="../images/04-03-policy-initiative-01-policy.png" width="600">
 
 ### 3-2. Initiative（ポリシー セット）の作成開始
-1. 左メニュー → 「作成」 → 「定義」 をクリック。
+1. 左メニュー →「作成」→「定義」をクリック。
 2. ＋イニシアティブ定義をクリック。
 
 <img src="../images/04-03-policy-initiative-02-create.png" width="600">
@@ -58,7 +58,7 @@
 ### 3-6. 2つ目のポリシーの追加
 作成済みの `init-demo-01` に、`Require a tag and its value on resources` を追加する。
 
-1. ポリシー画面の左メニューから 作成 → 定義 をクリック。
+1. ポリシー画面の左メニュー→「作成」→「定義」をクリック。
 2. 定義一覧から `init-demo-01` を検索してクリック。
 3. 「イニシアティブの編集」をクリック。
 4. 「基本情報」タブで、新しいバージョンに `1.0.1` を入力
@@ -70,7 +70,7 @@
 <img src="../images/04-03-policy-initiative-06-edit-add-policy.png" width="600">
 
 ### 3-7. 作成結果の確認
-1. ポリシー画面の左メニューから 作成 → 定義 をクリック。
+1. ポリシー画面の左メニューから「作成」→「定義」をクリック。
 2. 定義一覧から `init-demo-01` を検索してクリック。
 3. 「ポリシー」タブをクリックし、`Require a tag on resources`・`Require a tag and its value on resources` が表示されていることを確認する。
 4. 「JSON」タブから、`tagName`・`tagValue` の値が正しく設定されていることを確認。
