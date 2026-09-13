@@ -23,7 +23,7 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
    - リージョン：`(Asia Pacific)Japan East`
 5. レビューと作成 → 作成
 
-<img src="../images/02-03-storage-blob-01-resource-group.png" width="300">
+<img src="../images/02-03-storage-blob-01-resource-group.png" width="600">
 
 ### 3-2. ストレージ アカウントの作成
 1. 左メニュー → ストレージ アカウント
@@ -39,7 +39,7 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
    - 冗長性：`LRS`
 4. レビューと作成 → 作成
 
-<img src="../images/02-03-storage-blob-02-storage-account-create.png" width="300">
+<img src="../images/02-03-storage-blob-02-storage-account-create.png" width="600">
 
 ### 3-3. コンテナーの作成
 1. 左メニュー → ストレージ アカウント
@@ -50,19 +50,19 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
 5. 匿名アクセスレベル：プライベート
 6. 「作成」を押す。
 
-<img src="../images/02-03-storage-blob-03-container-create.png" width="300">
+<img src="../images/02-03-storage-blob-03-container-create.png" width="600">
 
 ### 3-4. Blob のアップロード
 1. コンテナー `container-demo` を開く。
 2. 「アップロード」を押す。
-3. 任意のファイル（`sample.txt`）を選択する。
+3. 任意のファイル（`sample.txt`）を選択。
 空のテキストファイルでよい
 4. 「アップロード」を押す。
 
-<img src="../images/02-03-storage-blob-04-blob-upload.png" width="300">
+<img src="../images/02-03-storage-blob-04-blob-upload.png" width="600">
 
 ### 3-5. Blob のアクセス確認
-1. アップロードした Blob を選択する。
+1. アップロードした Blob を選択。
 2. 「URL」をコピーし、アクセスできるかを確認する。
 （非公開コンテナーの場合、URLにアクセスしても表示されない。）
 3. 必要に応じて「SAS の生成」でアクセス権を付与する。（今回は使用しない）
@@ -71,7 +71,7 @@ Azure Storage アカウントを作成し、Blob コンテナーの作成、Blob
    - 生成された SAS URL を確認する
    - 「保存」を押す
 
-<img src="../images/02-03-storage-blob-05-blob-url-sas.png" width="300">
+<img src="../images/02-03-storage-blob-05-blob-url-sas.png" width="600">
 
 ## 4. 結果
 - リソースグループが作成された。

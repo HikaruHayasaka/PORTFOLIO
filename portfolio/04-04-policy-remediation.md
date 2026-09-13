@@ -26,11 +26,11 @@ Azure Policy のコンプライアンス評価で非対応と判定された既�
 <img src="../images/04-04-policy-remediation-02-assignment-start.png" width="600">
 
 ### 3-3. 基本情報タブ（スコープの設定、ポリシー定義の割り当て）
-1. 基本情報タブ → スコープ → ...をクリック。
+1. 基本情報タブ → スコープ →「...」をクリック。
 2. 「サブスクリプション」で `Azure subscription 1` を選択。
 3. 「リソース グループ」で `rg-monitor-demo-01`（`saalertdemo01` が所属する非対応リソースを含むリソース グループ）を選択。
 4. 選択をクリック。
-5. ポリシー定義 → ・・・ をクリック。
+5. ポリシー定義 →「...」をクリック。
 6. 一覧から `Add a tag to resources` を検索して選択。
 7. 追加をクリック。
 8. 割り当て名に `Add a tag to resources` を入力。

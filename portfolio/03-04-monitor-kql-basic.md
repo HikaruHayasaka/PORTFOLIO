@@ -11,35 +11,35 @@ Log Analytics ワークスペースで Kusto Query Language（KQL）の基本構
 ### 3-1. 事前準備 ストレージアカウント診断設定
 1. Azure ポータルにサインインする。
 2. 左メニュー → ストレージアカウント → 対象のストレージアカウントを選択（例：`saalertdemo01`）
-3. 左メニュー → **監視** → **診断設定**
-4. **blob** を選択
-5. **診断設定を追加** をクリック
+3. 左メニュー →「監視」→「診断設定」
+4. `blob` を選択
+5. 「診断設定を追加」をクリック
 6. 診断設定の名前：law-demo-01
 7. 以下の項目にチェックを入れる
-- **Storage Read**  
-- **Storage Write**  
-- **Storage Delete**
-- **Log Analytics ワークスペースへの送信**
+- 「Storage Read」  
+- 「Storage Write」  
+- 「Storage Delete」
+- 「Log Analytics ワークスペースへの送信」
 8. 保存をクリック
 
-<img src="../images/03-04-kql-basic-01-diagnostic-setting.png" width="300">
+<img src="../images/03-04-kql-basic-01-diagnostic-setting.png" width="600">
 
 ### 3-2. 事前準備 ログを発生させる
 1. 左メニュー → ストレージアカウント → 対象のストレージアカウントを選択（例：`saalertdemo01`）
 2. 左メニュー → データストレージ → コンテナー → 対象のコンテナーを選択（例：`container01`）
 3. 任意のファイルで、アップロード、ダウンロード、削除を行う。
 
-<img src="/images/03-04-kql-basic-02-blob-operations.png" width="600">
+<img src="../images/03-04-kql-basic-02-blob-operations.png" width="600">
 
 ### 3-3. Log Analytics ワークスペースのログを開く
 1. Azure ポータルにサインインする。
-2. 上部検索ウィンドウ → **Log Analytics ワークスペース** を検索して選択。
+2. 上部検索ウィンドウ →「Log Analytics ワークスペース」を検索して選択。
 3. 対象のワークスペースを開く。
-4. 左メニュー → **ログ** を選択する。
+4. 左メニュー →「ログ」を選択。
 (クエリ ハブ画面が表示される場合は、右上の?ボタンで閉じる)
-5. 右上に **簡易モード** が表示される場合は、下向き三角から **KQLモード** を選択する。
+5. 右上に「簡易モード」が表示される場合は、下向き三角から「KQLモード」を選択。
 
-<img src="../images/03-04-kql-basic-03-log-screen.png" width="300">
+<img src="../images/03-04-kql-basic-03-log-screen.png" width="600">
 
 ### 3-4. 基本クエリの実行
 ```
@@ -90,12 +90,12 @@ StorageBlobLogs
 <img src="../images/03-04-kql-basic-04-query-result.png" width="600">
 
 ### 3-5. クエリ（検索条件）の保存と呼び出し
-1. クエリ編集画面右上の **保存** → **クエリとして保存**を押す。
+1. クエリ編集画面右上の「保存」→「クエリとして保存」を押す。
 2. 任意の名前を入力し保存する。
-3. 開くときは、画面右上の **クエリハブ** → 任意のクエリを選択
+3. 開くときは、画面右上の「クエリハブ」→ 任意のクエリを選択
 （下の方にある場合は、画面をスクロールする）
 
-<img src="../images/03-04-kql-basic-05-save-query.png" width="300">
+<img src="../images/03-04-kql-basic-05-save-query.png" width="600">
 
 ### 3-6. 確認：見るべき項目と意味
 - TimeGenerated：操作が実行された日時
